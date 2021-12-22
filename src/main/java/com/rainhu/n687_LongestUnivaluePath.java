@@ -13,7 +13,7 @@ import com.rainhu.DioUtility.TreeNode;
  */
 
 public class n687_LongestUnivaluePath {
-    public static int len = 0;
+    public int len = 0;
     public int longestUnivaluePath(TreeNode root){
         helper(root, root.val);
         return len;
