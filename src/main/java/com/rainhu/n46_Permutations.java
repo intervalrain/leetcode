@@ -2,8 +2,6 @@ package com.rainhu;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Set;
-import java.util.HashSet;
 
 /**
  * 46. Permutations (Medium)
