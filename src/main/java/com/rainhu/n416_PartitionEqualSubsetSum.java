@@ -4,7 +4,7 @@ package com.rainhu;
  * 416. Partition Eqaul Subset Sum (Medium)
  * 
  * Given a non-empty array nums containing only positive integers,
- * find if the array can be partitoned into two subsets sduch that the sum of elements in both subsets is equal.
+ * find if the array can be partitoned into two subsets such that the sum of elements in both subsets is equal.
  * 
  * @author: Rain Hu
  * @version: 1
@@ -19,7 +19,7 @@ public class n416_PartitionEqualSubsetSum {
             sum += nums[i];
         if (sum % 2 != 0) return false;
         sum /= 2;
-        Boolean[] dp = new Boolean[sum + 1];
+        boolean[] dp = new boolean[sum + 1];
         
         dp[0] = true;
         for (int i = 0; i < nums.length; i++){
