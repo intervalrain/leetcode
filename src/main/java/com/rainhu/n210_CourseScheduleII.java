@@ -2,7 +2,6 @@ package com.rainhu;
 
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * 210. Course ScheduleII (Medium)
