@@ -13,39 +13,47 @@ package com.rainhu;
  * 
  * Note: You are not allowed to use any built-in function which evaluates strings as mathematical expressions,
  * such as eval()
+ * 
+ * @author: Rain Hu
+ * @version: 1
+ * @since: 2021/12/26
+ * @apiNote
  */
 public class n227_BasicCalculatorII{
     public int calculate(String s) {
-        if (s.length() >= 209079)
-            return 199;
         if (s==null | s.isEmpty())
             return 0;
-        int length = s.length();
-        int currentNumber = 0, lastNumber = 0, result = 0;
+        int len = s.length();
+        int curr = 0;
+        int last = 0;
+        int res = 0;
         
-        char operation = '+';
-        
-        for (int i=0; i<length; i++) {
-            char currentChar = s.charAt(i);
-            if (Character.isDigit(currentChar)) 
-                currentNumber = currentNumber*10 + (currentChar-'0');
-            
-            if (!Character.isDigit(currentChar) && 
-                !Character.isWhitespace(currentChar) || i == length - 1) {
-                if (operation == '+' || operation == '-') {
-                    result += lastNumber;
-                    lastNumber = (operation == '+') ? currentNumber : -currentNumber;
-                } else if (operation == '*') {
-                    lastNumber = lastNumber * currentNumber;
-                } else if (operation == '/') {
-                    lastNumber = lastNumber / currentNumber;
-                }                   
-                operation = currentChar;
-                currentNumber = 0;
+        char sign = '+';
+
+        for (int i = 0; i < len; i++){
+            char ch = s.charAt(i);
+            if (Character.isDigit(ch))
+                curr = curr * 10 + (ch - '0');
+            if (!Character.isDigit(ch) && !Character.isWhitespace(ch) || i == len - 1){
+                if (sign == '+' || sign == '-'){
+                    res += last;
+                    last = (sign == '+') ? curr : -curr;
+                } else if (sign == '*'){
+                    last = last * curr;
+                } else if (sign == '/'){
+                    last = last / curr;
+                }
+                sign = ch;
+                curr = 0;
             }
         }
-        
-        result += lastNumber;
-        return result;
+        res += last;
+        return res;
+    }
+
+    public static void main(String[] args){
+        n227_BasicCalculatorII clz = new n227_BasicCalculatorII();
+        int res = clz.calculate("3+2*2");
+        System.out.println(res);
     }
 }

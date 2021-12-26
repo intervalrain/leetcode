@@ -34,4 +34,12 @@ public class n227_BasicCalculatorIITest{
         actual = clz.calculate(s);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test4(){
+        s = " 3+5 / 2 * 8 - 2";
+        expected = 17;
+        actual = clz.calculate(s);
+        assertEquals(expected, actual);
+    }
 }
