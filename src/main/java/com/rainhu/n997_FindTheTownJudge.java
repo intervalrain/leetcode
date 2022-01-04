@@ -23,40 +23,16 @@ package com.rainhu;
 
 public class n997_FindTheTownJudge{
     public int findJudge(int n, int[][] trust){
-        if (n < 1 || trust.length < n - 1) return -1;
-
-        boolean[] nodes = new boolean[n];
-        int count = 0;
-        for (int i = 0; i < trust.length; i++){
-            if (!nodes[trust[i][0]-1]){
-                nodes[trust[i][0]-1] = true;
-                count++;
-            }
+        int[] votes = new int[n+1];
+        for (int[] t : trust){
+            votes[t[0]]--;
+            votes[t[1]]++;
+        }
+        for (int i = 1; i <= n; i++){
+            if (votes[i] == n - 1) return i;
         }
 
-        if (count != n-1)
-            return -1;
-
-        int judge = -1;
-        for (int i = 0; i < n; i++){
-            if (!nodes[i]){
-                judge = i+1;
-                break;
-            }
-        }
-
-        for (int i = 0; i < trust.length; i++){
-            if (trust[i][1] == judge)
-                nodes[trust[i][0]-1] = false;
-        }
-
-        for (int i = 0; i < nodes.length; i++){
-            if (nodes[i] && i != judge -1 )
-                return -1;
-        }
-
-        return judge;
-
-
+        return -1;
     }
+
 }
