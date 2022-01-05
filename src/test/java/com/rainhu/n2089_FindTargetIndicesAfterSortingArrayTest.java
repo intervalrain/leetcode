@@ -22,11 +22,5 @@ public class n2089_FindTargetIndicesAfterSortingArrayTest {
         actual = clz.targetIndices(nums, target);
         assertTrue(expected.equals(actual));
     }
-
-    @Test
-    public void test2(){
-        
-    }
-
     
 }
