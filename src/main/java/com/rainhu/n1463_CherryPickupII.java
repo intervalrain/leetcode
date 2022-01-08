@@ -26,41 +26,37 @@ package com.rainhu;
 public class n1463_CherryPickupII {
 
     public int cherryPickup(int[][] grid) {
+        int rows = grid.length;
         int cols = grid[0].length;
-        int rows = grid.length;       
         
-        int[][][] dp = new int[rows+1][cols+1][cols+1];
         int max_c1 = 1;
         int min_c2 = cols;
-        for(int r = 1; r <= rows; r++){
-              
-            for( int c1 = 1; c1 <= cols && c1 <= max_c1; c1++){
-                for(int c2 = cols; c2 >= 1  && c2 >= min_c2 ; c2--){
-                    int max = Integer.MIN_VALUE;                    
-                    for(int c_1 = c1 -1 ; c_1 <= c1+1 && c_1 <= cols && c_1 >=0 ; c_1++)
-                        for(int c_2 = c2-1; c_2 <= c2+1 && c_2 <= cols && c_2 >=0; c_2++)
-                            max = Math.max(dp[r -1][c_1][c_2],max);
-                        
-                    int curr = c1 == c2?grid[r-1][c1-1]:grid[r-1][c1-1]+grid[r-1][c2-1];   
-                  
-                    dp[r][c1][c2] = curr + max;                    
+        
+        int[][][] dp = new int[rows+1][cols+1][cols+1];
+        for (int r = 1; r <= rows; r++){
+            for (int c1 = 1; c1 <= cols && c1 <= max_c1; c1++){
+                for (int c2 = cols; c2 >= 1 && c2 >= min_c2; c2--){
+                    int max = 0;
+                    for (int i = -1; (i <= 1) && (c1 + i >= 0) && (c1 + i <= cols); i++)
+                        for (int j = -1; (j <= 1) && (c2 + j >= 0) && (c2 + j <= cols); j++)
+                            max = Math.max(max, dp[r-1][c1+i][c2+j]);
+                    int curr = c1 == c2 ? grid[r-1][c1-1] : grid[r-1][c1-1] + grid[r-1][c2-1];
+                    dp[r][c1][c2] = curr + max;
                 }
             }
             max_c1++;
             min_c2--;
         }
         
-        int max_cherries = Integer.MIN_VALUE;
-        for(int c1 = 1; c1 <= cols ;c1++)
-            for(int c2 = c1; c2 <= cols ;c2++)
-              max_cherries = Math.max(max_cherries,dp[rows][c1][c2]);
-        
-        return max_cherries;
-        
+        int ans = 0;
+        for (int c1 = 1; c1 <= cols; c1++)
+            for (int c2 = c1; c2 <= cols; c2++)
+                ans = Math.max(ans, dp[rows][c1][c2]);
+        return ans;
     }
 
     public static void main(String[] args){
-        int[][] grid = new int[][]{{3,1,1},{2,5,1}};
+        int[][] grid = new int[][]{{3,1,1},{2,5,1},{1,5,5},{2,1,1}};
         n1463_CherryPickupII clz = new n1463_CherryPickupII();
         int res = clz.cherryPickup(grid);
         System.out.println(res);
