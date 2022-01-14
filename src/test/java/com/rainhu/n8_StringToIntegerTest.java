@@ -49,5 +49,13 @@ public class n8_StringToIntegerTest {
         expected = -2147483648;
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test6(){
+        s = ".1";
+        actual = clz.myAtoi(s);
+        expected = 0;
+        assertEquals(expected, actual);
+    }
 }
 

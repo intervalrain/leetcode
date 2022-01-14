@@ -14,58 +14,47 @@ package com.rainhu;
  *       Change the sign as necessary (from step 2).
  *   (5) If the integer is out of the 32-bit signed integer range(-2^32, 2^31-1), then clamp the integer so that it remains in the range.
  *       Specifically, integers less than -2^31 should be clamped to -2^31. and integers greater than 2^31-1 should be clamped to 2^31-1.
- *   (6) Return the integer as the final result.     
+ *   (6) Return the integer as the final result.  
+ * 
+ * @author: Rain Hu
+ * @version: 2
+ * @since: 2022/1/15, 2021/7/22
+ * @apiNote:   
  */
 
 public class n8_StringToInteger {
-	public int myAtoi(String s) {
-		
-		int cnt=0;
-		int num=0;
-		boolean flag = false;
-		char[] c = s.strip().toCharArray();
-
-		for(int i=0; i<c.length; ++i){
-			if(!flag){
-				if((c[i]=='+'||c[i]=='-')&&cnt==0){
-					flag = true;
-					cnt++;
-					continue;
-				}
-			}
-			if(trans(c[i])==-1){
+	public int myAtoi(String s){
+		s = s.strip();
+		long cnt = 0;
+		int pos = 1;
+		char[] ch = s.toCharArray();
+		int i = 0;
+		for (i = 0; i < ch.length; i++){
+			if (ch[i] == ' '){
+				continue;
+			} else if (Character.isLetter(ch[i]) || ch[i] == '.'){
+				return 0;
+			} else if (ch[i] == '+'){
+				i++;
+				break;
+			} else if (ch[i] == '-'){
+				i++;
+				pos = -1;
+				break;
+			} else if (ch[i] >= '0' && ch[i] <= '9'){
 				break;
 			}
-			cnt++;
 		}
-		if(cnt==0 || (cnt==1 && flag==true))
-			return 0;
-		s = s.strip().substring(0, cnt);
+		for (int j = i; j < ch.length; j++){
+			if (!Character.isDigit(ch[j]))
+				break;
 
-		try {
-			num = Integer.parseInt(s);
-		} catch (NumberFormatException e) {
-			if(c[0]=='-')
-				return Integer.MIN_VALUE;
-			return Integer.MAX_VALUE;
+			if (cnt * pos > Integer.MAX_VALUE)
+				return Integer.MAX_VALUE;
+			else if (cnt * pos < Integer.MIN_VALUE)
+				return Integer.MIN_VALUE; 			
+			cnt = 10 * cnt + (ch[j] - '0');
 		}
-
-		return num;
-	}
-	public int trans(char key) {
-		switch (key) {
-			case '0': return 0;
-			case '1': return 1;
-			case '2': return 2;
-			case '3': return 3;
-			case '4': return 4;
-			case '5': return 5;
-			case '6': return 6;
-			case '7': return 7;
-			case '8': return 8;
-			case '9': return 9;
-			default:
-				return -1;
-		}
+		return (int)cnt * pos;
 	}
 }
