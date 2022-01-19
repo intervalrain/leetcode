@@ -8,6 +8,7 @@ public class ListNode{
     
     public int val;
     public ListNode next;
+    private boolean flag;
 
     public ListNode() {
     }
@@ -30,6 +31,8 @@ public class ListNode{
     }
 
     public String toString(){
+        if(cycleFound())
+            return "N/A";
         StringBuffer tmpStr = new StringBuffer();
         ListNode tmpNode = this;
         while(tmpNode!=null) {
@@ -40,12 +43,26 @@ public class ListNode{
     }
 
     public int size(){
+        if(cycleFound())
+            return -1;
         ListNode p = this;
         int cnt = 0;
-        while(p!=null){
+        while(p != null){
             p = p.next;
             cnt++;
         }
         return cnt;
+    }
+
+    private boolean cycleFound(){
+        ListNode fast = this;
+        ListNode slow = this;
+        while (fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow)
+                return true;
+        }
+        return false;
     }
 }

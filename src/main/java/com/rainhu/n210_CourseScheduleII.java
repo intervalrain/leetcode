@@ -34,6 +34,7 @@ public class n210_CourseScheduleII{
         int[] topo;
         boolean hasCycle;
 
+        @SuppressWarnings("unchecked")
         Graph(int n){
             length = n;
             adj = new ArrayList[n];
