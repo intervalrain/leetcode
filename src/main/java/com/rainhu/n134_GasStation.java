@@ -25,7 +25,7 @@ public class n134_GasStation{
         int start = 0;
         int total = 0;
         int tank = 0;
-        
+
         for (int i = 0; i < gas.length; i++){
             if ((tank = tank + gas[i] - cost[i]) < 0){
                 start = i + 1;
