@@ -16,7 +16,7 @@ import com.rainhu.DioUtility.ListNode;
  * @author: Rain Hu
  * @version: 2
  * @since: 2021/12/9
- * @apiNote:
+ * @apiNote: Linked List
  */
 
 public class n2_AddTwoNumbers {

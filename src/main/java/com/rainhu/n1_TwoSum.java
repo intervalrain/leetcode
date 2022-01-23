@@ -17,7 +17,7 @@ import java.util.HashMap;
  * @author: Rain Hu
  * @version: 1
  * @since: 2021/11/5
- * @apiNote: HashMap
+ * @apiNote: Hash Map
  */
 
 public class n1_TwoSum {

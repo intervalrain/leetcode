@@ -12,16 +12,18 @@
 
 
 ### Classification
-- Array
-    - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)    
+- Array 
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
 
-    
+- Linked List
+    - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
 
+- Hash Map
+    - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
+    - [3. Longest Substring Without Reapting Characters](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n3_LongestSubstringWithoutRepeatingCharacters.java)
+    
 - Unsorted
     
-    - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
-    - [3. Longest Substring Without Reapting Characters](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n3_LongestSubstringWithoutRepeatingCharacters.java)
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)
     - [7. Reverse Integer](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n7_ReverseInteger.java)
