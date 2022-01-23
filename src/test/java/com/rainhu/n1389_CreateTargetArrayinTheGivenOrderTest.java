@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class n1389_CreateTargetArrayTest {
+public class n1389_CreateTargetArrayinTheGivenOrderTest {
     
-    n1389_CreateTargetArray clz = new n1389_CreateTargetArray();
+    n1389_CreateTargetArrayinTheGivenOrder clz = new n1389_CreateTargetArrayinTheGivenOrder();
 
     int[] nums;
     int[] index;
