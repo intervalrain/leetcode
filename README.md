@@ -14,6 +14,7 @@
 ### Classification
 - Array 
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
+    - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
 
 - Linked List
     - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
