@@ -33,8 +33,6 @@
     - [421. Maximum XOR of Two Numbers in an Array](http://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
 
 - Unsorted
-    
-    - [421. Maximum XOR of Two Numbers in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)
     - [7. Reverse Integer](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n7_ReverseInteger.java)
