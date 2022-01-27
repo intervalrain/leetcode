@@ -11,7 +11,7 @@ import java.util.Set;
  * where 0 <= i <= j < n.
  * 
  * @author: Rain Hu
- * @version: 1
+ * @version: 2
  * @since: 2022/1/27
  * @apiNote: bit manipulation
  *           1. bit masking
@@ -34,6 +34,29 @@ public class n421_MaximumXORofTwoNumbersInAnArray {
                     max = tmp;
                     break;
                 }
+            }
+        }
+        return max;
+    }
+
+    /** best solution */
+    public int findMaximumXOR2(int[] nums){
+        int max = 0, mask = 0;
+        HashSet<Integer> set = new HashSet<>();
+        int maxNum = 0;
+        for (int i : nums)
+            maxNum = Math.max(maxNum, i);
+        for (int i = 31 - Integer.numberOfLeadingZeros(maxNum); i >= 0; i--){
+            set.clear();
+            int bit = (1 << i);
+            mask = mask | bit;
+            int tmp = max | bit;
+            for (int prefix : nums){
+                if (set.contains((prefix & mask) ^ tmp)){
+                    max = tmp;
+                    break;
+                }
+                set.add(prefix & mask);
             }
         }
         return max;
