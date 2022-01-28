@@ -32,6 +32,9 @@
 - Bit Manipulation
     - [421. Maximum XOR of Two Numbers in an Array](http://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
 
+- Trie
+    - [211. Design Add and Search Words Data Structure](http://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
+
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)
