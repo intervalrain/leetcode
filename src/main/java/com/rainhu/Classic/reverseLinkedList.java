@@ -2,7 +2,7 @@ package com.rainhu.Classic;
 
 import com.rainhu.DioUtility.ListNode;
 
-public class revertLinkedList {
+public class reverseLinkedList {
     
     /** Iterative Method
      * 
@@ -43,7 +43,7 @@ public class revertLinkedList {
     }
     public static void main(String[] args){    
         ListNode node = new ListNode(1,2,3,4,5,6,7,8,9);
-        revertLinkedList clz = new revertLinkedList();
+        reverseLinkedList clz = new reverseLinkedList();
         System.out.println(clz.reverseIterative(node).toString());
         node = new ListNode(1,2,3,4,5,6,7,8,9);
         System.out.println(clz.reverseRecursive(node).toString());
