@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n84_LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "com.rainhu.n84_LargestRectangleInHistogram",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch revertLinkedList",
             "request": "launch",
             "mainClass": "com.rainhu.revertLinkedList",
