@@ -30,10 +30,13 @@
     - [1305. All Elements in Two Binary Search Trees](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1305_AllElementsInTwoBinarySearchTrees.java)
 
 - Bit Manipulation
-    - [421. Maximum XOR of Two Numbers in an Array](http://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
+    - [421. Maximum XOR of Two Numbers in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
 
 - Trie
-    - [211. Design Add and Search Words Data Structure](http://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
+    - [211. Design Add and Search Words Data Structure](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
+
+- Dynamic Programming
+    - [84. Largest Rectangle in Histogram](https://https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
 
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
