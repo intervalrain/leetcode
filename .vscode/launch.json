@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch revertLinkedList",
+            "request": "launch",
+            "mainClass": "com.rainhu.revertLinkedList",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n421_MaximumXORofTwoNumbersInAnArray",
             "request": "launch",
             "mainClass": "com.rainhu.n421_MaximumXORofTwoNumbersInAnArray",
