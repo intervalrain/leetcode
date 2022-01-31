@@ -16,6 +16,7 @@
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
     - [189. Rotate Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n189_RotateArray.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
+    - [1672. Richest Customer Wealth](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1672_RichestCustomerWealth.java)
 
 - Linked List
     - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
