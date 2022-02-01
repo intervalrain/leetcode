@@ -12,7 +12,7 @@ package com.rainhu;
  * @author: Rain Hu
  * @version: 1
  * @since: 2021/12/9
- * @apiNote
+ * @apiNote: array
  */
 
 public class n121_BestTimeToBuyAndSellStock {
