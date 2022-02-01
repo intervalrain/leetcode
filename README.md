@@ -14,6 +14,7 @@
 ### Classification
 - Array 
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
+    - [121. Best Time to Buy and Sell Stock](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n121_BestTimeToBuyAndSellStock.java)
     - [189. Rotate Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n189_RotateArray.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
     - [1672. Richest Customer Wealth](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1672_RichestCustomerWealth.java)
@@ -98,7 +99,6 @@
     - [116. Populating Next Right Pointers in Each Node](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n116_PopulatingNextRightPointersInEachNode.java)
     - [118. Pascal's Triangle](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n118_PascalsTriangle.java)
     - [119. Pascal's Triangle II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n119_PascalsTriangleII.java)
-    - [121. Best Time to Buy and Sell Stock](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n121_BestTimeToBuyAndSellStock.java)
     - [122. Best Time to Buy and Sell Stock II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n122_BestTimeToBuyAndSellStockII.java)
     - [125. Valid Palindrome](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n125_ValidPalindrome.java)
     - [129. Sum Root to Leaf Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n129_SumRootToLeafNumbers.java)
