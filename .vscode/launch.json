@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n438_FindAllAnagramsInAStringTest",
+            "request": "launch",
+            "mainClass": "com.rainhu.n438_FindAllAnagramsInAStringTest",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n84_LargestRectangleInHistogram",
             "request": "launch",
             "mainClass": "com.rainhu.n84_LargestRectangleInHistogram",
