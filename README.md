@@ -26,6 +26,7 @@
 - Hash Map
     - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
     - [3. Longest Substring Without Reapting Characters](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n3_LongestSubstringWithoutRepeatingCharacters.java)
+    - [454. 4Sum II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n454_4SumII.java)
     
 - BFS
     - [1291. Sequential Digits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1291_SequentialDigits.java)

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n438_FindAllAnagramsInAString",
+            "request": "launch",
+            "mainClass": "com.rainhu.n438_FindAllAnagramsInAString",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n438_FindAllAnagramsInAStringTest",
             "request": "launch",
             "mainClass": "com.rainhu.n438_FindAllAnagramsInAStringTest",
