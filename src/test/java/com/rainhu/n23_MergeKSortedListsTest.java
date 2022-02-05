@@ -19,7 +19,7 @@ public class n23_MergeKSortedListsTest {
         lists = new ListNode[]{new ListNode(1,4,5), new ListNode(1,3,4), new ListNode(2,6)};
         expected = new ListNode(1,1,2,3,4,4,5,6);
         actual = clz.mergeKLists(lists);
-        assertArrayEquals(expected.toString(), actual.toString());
+        assertArrayEquals(expected.toArray(), actual.toArray());
     }
 
     @Test

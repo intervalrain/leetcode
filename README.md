@@ -44,6 +44,9 @@
 - Dynamic Programming
     - [84. Largest Rectangle in Histogram](https://https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
 
+- Priority Queue
+    - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
+
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)
@@ -63,7 +66,6 @@
     - [20. Valid Parenthewses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n20_ValidParentheses.java)
     - [21. Merge Two Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n21_MergeTwoSortedLists.java)
     - [22. Generate Parentheses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n22_GenerateParentheses.java)
-    - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
     - [24. Swap Nodes in Pairs](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n24_SwapNodesInPairs.java)
     - [25. Reverse Nodes in k-Group](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n25_ReverseNodesInKgroup.java)
     - [26. Remove Duplicates from Sorted Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n26_RemoveDuplicatesFromSortedArray.java)
