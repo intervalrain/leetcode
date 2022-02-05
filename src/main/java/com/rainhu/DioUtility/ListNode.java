@@ -29,16 +29,28 @@ public class ListNode{
         this.next = head;
     }
 
+    public Object[] toArray(){
+        if (this.cycleFound())
+            return null;
+        ListNode node = this;
+        Integer[] array = new Integer[this.size()];
+        toArraySub(node, array);
+        return array;
+    }
+
+    private void toArraySub(ListNode node, Integer[] array){
+        if (node == null) return;
+        int index = 0;
+        while (node != null){
+            array[index++] = node.val;
+            node = node.next;
+        }
+    }
+
     public String toString(){
         if(cycleFound())
             return "N/A";
-        StringBuffer tmpStr = new StringBuffer();
-        ListNode tmpNode = this;
-        while(tmpNode!=null) {
-            tmpStr.append(Integer.toString(tmpNode.val) + ", ");
-            tmpNode = tmpNode.next;
-        }
-        return tmpStr.toString().substring(0, tmpStr.toString().length()-2);
+        return this.toArray().toString();
     }
 
     public int size(){
@@ -63,5 +75,9 @@ public class ListNode{
                 return true;
         }
         return false;
+    }
+
+    public boolean hasNext(){
+        return this.next != null;
     }
 }
