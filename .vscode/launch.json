@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n532_KdiffPairsInAnArray",
+            "request": "launch",
+            "mainClass": "com.rainhu.n532_KdiffPairsInAnArray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n23_MergeKSortedLists",
             "request": "launch",
             "mainClass": "com.rainhu.n23_MergeKSortedLists",

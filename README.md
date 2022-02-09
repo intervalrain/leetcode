@@ -28,6 +28,7 @@
     - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
     - [3. Longest Substring Without Reapting Characters](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n3_LongestSubstringWithoutRepeatingCharacters.java)
     - [454. 4Sum II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n454_4SumII.java)
+    - [532. K-diff Pairs in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n532_KdiffPairsInAnArray.java)
     
 - BFS
     - [1291. Sequential Digits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1291_SequentialDigits.java)
