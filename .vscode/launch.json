@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n560_SubarraySumEqualsK",
+            "request": "launch",
+            "mainClass": "com.rainhu.n560_SubarraySumEqualsK",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n532_KdiffPairsInAnArray",
             "request": "launch",
             "mainClass": "com.rainhu.n532_KdiffPairsInAnArray",
