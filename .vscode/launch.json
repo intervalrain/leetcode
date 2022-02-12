@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n127_WordLadder",
+            "request": "launch",
+            "mainClass": "com.rainhu.n127_WordLadder",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n560_SubarraySumEqualsK",
             "request": "launch",
             "mainClass": "com.rainhu.n560_SubarraySumEqualsK",
