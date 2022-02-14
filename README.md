@@ -85,6 +85,7 @@
     - [33. Search in Rotated Sorted Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n33_SearchInRotatedSortedArray.java)
     - [34. Find First and Last Position of Element Sorted Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n34_FindFirstAndLastPositionOfElementInSortedArray.java)
     - [35. Search Insert Position](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n35_SearchInsertPosition.java)
+    - [41. First Missing Positive](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n41_FirstMissingPositive.java)
     - [43. Multiply Strings](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n43_MultiplyStrings.java)
     - [46. Permutations](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n46_Permutations.java)
     - [53. Maximum Subarray](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n53_MaximumSubarray.java)
