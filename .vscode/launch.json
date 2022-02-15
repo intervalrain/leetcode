@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n37_SudokuSolver2",
+            "request": "launch",
+            "mainClass": "com.rainhu.n37_SudokuSolver2",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch n37_SudokuSolver",
+            "request": "launch",
+            "mainClass": "com.rainhu.n37_SudokuSolver",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n41_FirstMissingPositive",
             "request": "launch",
             "mainClass": "com.rainhu.n41_FirstMissingPositive",
