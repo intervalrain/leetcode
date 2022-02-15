@@ -40,6 +40,7 @@
     - [1305. All Elements in Two Binary Search Trees](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1305_AllElementsInTwoBinarySearchTrees.java)
 
 - Bit Manipulation
+    - [136. Single Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n136_SingleNumber.java)
     - [421. Maximum XOR of Two Numbers in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
 
 - Trie
