@@ -53,6 +53,7 @@
     - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
 
 - Back Tracking
+    - [39. Combination Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n39_CombinationSum.java)
     - [78. Subsets](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n78_Subsets.java)
 
 - Unsorted
