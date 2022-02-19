@@ -14,6 +14,11 @@ import java.util.List;
  * Two candidates are unique if the frequency of at least one of chosen numbers is different.
  * 
  * Is it guaranteed that the number of unique combinations that sum up to target is less than combination for the given input.
+ * 
+ * @author: Rain Hu
+ * @version: 1
+ * @since: 2022/2/17
+ * @apiNote: backtracking
  */
 
 public class n39_CombinationSum {
