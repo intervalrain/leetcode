@@ -15,6 +15,7 @@
 - Array 
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
     - [121. Best Time to Buy and Sell Stock](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n121_BestTimeToBuyAndSellStock.java)
+    - [169. Majority Element](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n169_MajorityElement.java)
     - [189. Rotate Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n189_RotateArray.java)
     - [438. Find All Anagrams in a String](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n438_FindAllAnagramsInAString.java)
     - [525. Contiguous Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n525_ContiguousArray.java)
