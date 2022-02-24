@@ -80,4 +80,17 @@ public class ListNode{
     public boolean hasNext(){
         return this.next != null;
     }
+
+    public boolean equals(ListNode node){
+        ListNode curr = this;
+        while (curr != null && node != null){
+            if (curr.val != node.val)
+                return false;
+            curr = curr.next;
+            node = node.next;
+        }
+        if (curr == null && node == null)
+            return true;
+        return false;
+    }
 }

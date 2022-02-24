@@ -24,6 +24,7 @@
 
 - Linked List
     - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
+    - [148. Sort List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n148_SortList.java): Merge sort
 
 - Hash Map
     - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
