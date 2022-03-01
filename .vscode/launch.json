@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n338_CountingBits",
+            "request": "launch",
+            "mainClass": "com.rainhu.n338_CountingBits",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n1288_RemoveCoveredIntervals",
             "request": "launch",
             "mainClass": "com.rainhu.n1288_RemoveCoveredIntervals",
