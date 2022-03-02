@@ -15,7 +15,7 @@ package com.rainhu;
  * @apiNote
  */
 
-public class n392_IsSubquence {
+public class n392_IsSubsequence {
     public boolean isSubsequence(String s, String t){
         if (s.length() == 0) return true;
         int i = 0, j = 0;

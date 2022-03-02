@@ -68,6 +68,7 @@
 
 - String
     - [165. Compare Version Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n165_CompareVersionNumbers.java)
+    - [392. Is Subsequence](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n392_IsSubsequence.java)
 
 
 - Unsorted

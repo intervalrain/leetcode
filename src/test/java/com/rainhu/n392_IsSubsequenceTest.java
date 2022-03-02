@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class n392_IsSubquenceTest {
+public class n392_IsSubsequenceTest {
     
-    n392_IsSubquence clz = new n392_IsSubquence();
+    n392_IsSubsequence clz = new n392_IsSubsequence();
     String s, t;
     boolean expected, actual;
 
