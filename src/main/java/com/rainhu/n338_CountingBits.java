@@ -30,4 +30,22 @@ public class n338_CountingBits {
         return i;
     }
 
+    /** best solution */
+    public static void util(int x, int c, int n, int[] dp){
+        if(x>n) return;
+        dp[x] = c;
+        util(x*2, c, n, dp);
+        util(x*2+1, c+1, n, dp);
+    }
+    public static int[] countBits2(int n) {
+        int[] dp = new int[n+1];
+        dp[0] = 0;
+        if(n==0)return dp;
+        util(1, 1, n, dp);
+        return dp;
+    }
+
+    public static void main(String[] args){
+        System.out.println(java.util.Arrays.toString(countBits2(9)));
+    }
 }
