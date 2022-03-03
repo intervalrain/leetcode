@@ -17,6 +17,7 @@
     - [121. Best Time to Buy and Sell Stock](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n121_BestTimeToBuyAndSellStock.java)
     - [169. Majority Element](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n169_MajorityElement.java)
     - [189. Rotate Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n189_RotateArray.java)
+    - [413. Arithmetic Slices](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n413_ArithmeticSlices.java)
     - [438. Find All Anagrams in a String](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n438_FindAllAnagramsInAString.java)
     - [525. Contiguous Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n525_ContiguousArray.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
