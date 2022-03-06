@@ -51,7 +51,8 @@
     - [211. Design Add and Search Words Data Structure](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
 
 - Dynamic Programming
-    - [84. Largest Rectangle in Histogram](https://https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
+    - [84. Largest Rectangle in Histogram](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
+    - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)) 
 
 - Priority Queue
     - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
