@@ -71,6 +71,8 @@
     - [165. Compare Version Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n165_CompareVersionNumbers.java)
     - [392. Is Subsequence](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n392_IsSubsequence.java)
 
+- Math
+    - [1359. Count All Valid Pickup and Delivery Options](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1359_CountAllValidPickupAndDeliveryOptions.java)
 
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)

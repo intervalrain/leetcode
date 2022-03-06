@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n799_ChampagneTower",
+            "request": "launch",
+            "mainClass": "com.rainhu.n799_ChampagneTower",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n338_CountingBits",
             "request": "launch",
             "mainClass": "com.rainhu.n338_CountingBits",

@@ -43,4 +43,8 @@ public class n799_ChampagneTower {
                 res[i + 1] += res[i] = Math.max(0.0, (res[i] - 1) / 2);
         return Math.min(res[query_glass], 1.0);
     }
+
+    public static void main(String[] args){
+        System.out.println(new n799_ChampagneTower().champagneTower(30, 4, 0));
+    }
 }
