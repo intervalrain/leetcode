@@ -75,6 +75,9 @@
 - Math
     - [1359. Count All Valid Pickup and Delivery Options](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1359_CountAllValidPickupAndDeliveryOptions.java)
 
+- Recursion
+    - [799. Champagne Tower](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n799_ChampagneTower.java)
+
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)

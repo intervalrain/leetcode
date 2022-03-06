@@ -31,20 +31,28 @@ package com.rainhu;
  * @author: Rain Hu
  * @version: 1
  * @since: 2022/3/4
- * @apiNote:
+ * @apiNote: recursion
  */
 
 public class n799_ChampagneTower {
     public double champagneTower(int poured, int query_row, int query_glass){
-        double[] res = new double[query_row + 2];
-        res[0] = poured;
-        for (int row = 1; row <= query_row; row++)
-            for (int i = row; i >= 0; i--)
-                res[i + 1] += res[i] = Math.max(0.0, (res[i] - 1) / 2);
-        return Math.min(res[query_glass], 1.0);
+        if (query_row == 0) return poured >= 1 ? 1 : 0; 
+        double[] glasses = new double[query_row + 1];
+        double[] next = new double[query_row + 1];
+        glasses[0] = poured;
+        double res = pour(glasses, next, query_row)[query_glass];
+        return res > 1 ? 1 : res;
     }
 
-    public static void main(String[] args){
-        System.out.println(new n799_ChampagneTower().champagneTower(30, 4, 0));
+    public double[] pour(double[] glasses, double[] next, int times){
+        if (times == 0) return glasses;
+        for (int i = 0; i < glasses.length-1; i++){
+            if (glasses[i] > 1){
+                next[i]   += (glasses[i]-1)/2;
+                next[i+1] += (glasses[i]-1)/2;
+            }
+            
+        }
+        return pour(next, new double[glasses.length], times - 1);
     }
 }

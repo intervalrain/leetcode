@@ -39,4 +39,14 @@ public class n799_ChampagneTowerTest {
         actual = clz.champagneTower(poured, query_row, query_glass);
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void test4(){
+        poured = 11;
+        query_row = 4;
+        query_glass = 2;
+        expected = 1.0000;
+        actual = clz.champagneTower(poured, query_row, query_glass);
+        assertEquals(expected, actual);
+    }
 }
