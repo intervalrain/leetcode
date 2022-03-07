@@ -29,7 +29,7 @@ public class n89_GrayCode {
     static int num;
     public List<Integer> grayCode(int n){
         List<Integer> list = new ArrayList<>();
-        int num = 0;
+        num = 0;
         findGrayCodes(list, n);
         return list;
     }
