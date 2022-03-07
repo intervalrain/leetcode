@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n89_GrayCode",
+            "request": "launch",
+            "mainClass": "com.rainhu.n89_GrayCode",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch graycode",
+            "request": "launch",
+            "mainClass": "com.rainhu.Classic.graycode",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n799_ChampagneTower",
             "request": "launch",
             "mainClass": "com.rainhu.n799_ChampagneTower",
