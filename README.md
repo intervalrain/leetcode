@@ -25,6 +25,7 @@
 
 - Linked List
     - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
+    - [21. Merge Two Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n21_MergeTwoSortedLists.java)
     - [148. Sort List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n148_SortList.java): Merge sort
 
 - Hash Map
@@ -96,7 +97,6 @@
     - [18. 4Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n18_FourSum.java)
     - [19. Remove Nth Node From End of List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n19_RemoveNthNodeFromEndOfList.java)
     - [20. Valid Parenthewses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n20_ValidParentheses.java)
-    - [21. Merge Two Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n21_MergeTwoSortedLists.java)
     - [22. Generate Parentheses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n22_GenerateParentheses.java)
     - [24. Swap Nodes in Pairs](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n24_SwapNodesInPairs.java)
     - [25. Reverse Nodes in k-Group](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n25_ReverseNodesInKgroup.java)
