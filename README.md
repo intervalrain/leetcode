@@ -26,6 +26,8 @@
 - Linked List
     - [2. Add Two Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n2_AddTwoNumbers.java)
     - [21. Merge Two Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n21_MergeTwoSortedLists.java)
+    - [82. Remove Duplicates from Sorted List II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n82_RemoveDuplicatesFromSortedListII.java)
+    - [83. Remove Duplicates from Sorted List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n83_RemoveDuplicatesFromSortedList.java)
     - [148. Sort List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n148_SortList.java): Merge sort
 
 - Hash Map
@@ -122,7 +124,6 @@
     - [69. Sqrt(x)](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n69_Sqrtx.java)
     - [70. Climbing Stairs](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n70_ClimbingStairs.java)
     - [81. Search in Rotated Sorted Array II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n81_SearchInRotatedSortedArrayII.java)
-    - [83. Remove Duplicates from Sorted List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n83_RemoveDuplicatesFromSortedList.java)
     - [85. Maximal Rectangle](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n85_MaximalRectangle.java)
     - [94. Binary Tree Inorder Traversal](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n94_BinaryTreeInorderTraversal.java)
     - [96.Unique Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n96_UniqueBinarySearchTrees.java)
