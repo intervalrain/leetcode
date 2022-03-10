@@ -1,5 +1,7 @@
 package com.rainhu.DioUtility;
 
+import java.util.Arrays;
+
 /**
  * A simple int linked-list implement in leetcodes. 
  */
@@ -47,10 +49,11 @@ public class ListNode{
         }
     }
 
+    @Override
     public String toString(){
         if(cycleFound())
             return "N/A";
-        return this.toArray().toString();
+        return Arrays.toString(this.toArray());
     }
 
     public int size(){
@@ -92,5 +95,9 @@ public class ListNode{
         if (curr == null && node == null)
             return true;
         return false;
+    }
+
+    public static void main(String[] args){
+        System.out.println(new ListNode(1,2,3).toString());
     }
 }
