@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RandomNode",
+            "request": "launch",
+            "mainClass": "com.rainhu.DioUtility.RandomNode",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch ListNode",
             "request": "launch",
             "mainClass": "com.rainhu.DioUtility.ListNode",

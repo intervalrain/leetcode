@@ -40,7 +40,7 @@ public class ListNode{
         return array;
     }
 
-    private void toArraySub(ListNode node, Integer[] array){
+    protected void toArraySub(ListNode node, Integer[] array){
         if (node == null) return;
         int index = 0;
         while (node != null){
@@ -68,7 +68,7 @@ public class ListNode{
         return cnt;
     }
 
-    private boolean cycleFound(){
+    protected boolean cycleFound(){
         ListNode fast = this;
         ListNode slow = this;
         while (fast != null && fast.next != null){
@@ -95,9 +95,5 @@ public class ListNode{
         if (curr == null && node == null)
             return true;
         return false;
-    }
-
-    public static void main(String[] args){
-        System.out.println(new ListNode(1,2,3).toString());
     }
 }

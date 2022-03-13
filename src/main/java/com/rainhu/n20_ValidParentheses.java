@@ -11,6 +11,11 @@ import java.util.Stack;
  * An input string is valid if:
  *  1. Open brackets must be closed by the same types of brackets.
  *  2. Open brackets must be cloesd in the correct order.
+ * 
+ * @author: Rain Hu
+ * @version: 1
+ * @since: 2020
+ * @apiNote: Stack
  */
 
 public class n20_ValidParentheses {
@@ -24,7 +29,7 @@ public class n20_ValidParentheses {
     // '{': 123
     // '}': 125
 
-    public static boolean isValid(String s){
+    public boolean isValid(String s){
         Stack<Character> st = new Stack<>();
 
         for(int i=0; i<s.length(); i++){
