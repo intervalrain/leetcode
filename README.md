@@ -80,6 +80,7 @@
 - String
     - [165. Compare Version Numbers](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n165_CompareVersionNumbers.java)
     - [392. Is Subsequence](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n392_IsSubsequence.java)
+    - [1249. Minimum Remove to Make Valid Parentheses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1249_MinimumRemoveToMakeValidParentheses.java)
 
 - Math
     - [1359. Count All Valid Pickup and Delivery Options](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1359_CountAllValidPickupAndDeliveryOptions.java)
