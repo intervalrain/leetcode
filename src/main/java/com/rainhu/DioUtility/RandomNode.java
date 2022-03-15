@@ -71,6 +71,8 @@ public class RandomNode extends ListNode{
     }
 
     public static void main(String[] args){
-        System.out.println(new RandomNode(new Integer[][]{{7,null},{13,0},{11,4},{10,2},{1,0}}).toString());
+        RandomNode node = new RandomNode(new Integer[][]{{7,null},{13,0},{11,4},{10,2},{1,0}});
+        System.out.println(node.toString());
+        System.out.println(node.table instanceof RandomNode[]);
     }
 }
