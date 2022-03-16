@@ -41,6 +41,7 @@
 - Stack
     - [20. Valid Parenthewses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n20_ValidParentheses.java)
     - [71. Simplify Path](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n71_SimplifyPath.java)
+    - [946. Validate Stack Sequences](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n946_ValidateStackSequences.java)
     
 - BFS
     - [104. Maximum Depth of Binary Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/   rainhu/n104_MaximumDepthOfBinaryTree.java)

@@ -1,7 +1,5 @@
 package com.rainhu;
 
-import com.rainhu.Generic.Stack;
-
 /**
  * 1249. Minimum Remove to Make Valid Parentheses (Medium)
  * 
