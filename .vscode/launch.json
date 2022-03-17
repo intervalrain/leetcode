@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n856_ScoreOfParentheses",
+            "request": "launch",
+            "mainClass": "com.rainhu.n856_ScoreOfParentheses",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n71_SimplifyPath",
             "request": "launch",
             "mainClass": "com.rainhu.n71_SimplifyPath",
