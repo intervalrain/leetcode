@@ -42,6 +42,7 @@
     - [20. Valid Parenthewses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n20_ValidParentheses.java)
     - [71. Simplify Path](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n71_SimplifyPath.java)
     - [856. Score of Parentheses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n856_ScoreOfParentheses.java)
+    - [895. Maximum Frequency Stack](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n895_MaximumFrequencyStack.java)
     - [946. Validate Stack Sequences](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n946_ValidateStackSequences.java)
     
 - BFS
