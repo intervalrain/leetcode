@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n763_PartitionLabels",
+            "request": "launch",
+            "mainClass": "com.rainhu.n763_PartitionLabels",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n856_ScoreOfParentheses",
             "request": "launch",
             "mainClass": "com.rainhu.n856_ScoreOfParentheses",

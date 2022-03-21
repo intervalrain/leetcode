@@ -24,29 +24,41 @@ import java.util.HashMap;
  */
 
 public class n895_MaximumFrequencyStack {
+    
     List<Stack<Integer>> stacks;
-    Map<Integer, Integer> map;
+
+    // Constructor
     public n895_MaximumFrequencyStack(){
         stacks = new ArrayList<>();
-        map = new HashMap<>();
     }
 
+    // Methods
     public void push(int val){
-        Stack<Integer> st;
-        if (stacks.size() < map.getOrDefault(val, 0) + 1){
-            st = new Stack<>();
-            stacks.add(st);
-        } else
-            st = stacks.get(map.getOrDefault(val, 0));
-        st.push(val);
-        map.put(val, map.getOrDefault(val, 0) + 1);
+        push(val, 0);
+    }
+
+    private void push(int val, int freq){
+        // 當 stacks[freq] 是空的時候，則新建一個 stack。
+        Stack<Integer> stack;
+        if (freq >= stacks.size()){
+            stack = new Stack<>();
+            stacks.add(stack);
+        } else {
+            stack = stacks.get(freq);
+        }
+        // 當該 stacks[freq] 已經有該元素，則往下一個 stacks 找
+        if (stack.contains(val)){
+            push(val, freq + 1);
+        } else {
+            stack.push(val);
+        }
     }
 
     public int pop(){
-        Stack<Integer> st = stacks.get(stacks.size() - 1);
-        int top = st.pop();
-        map.put(top, map.get(top) - 1);
-        if (st.isEmpty()){
+        // 直接找到最高的 stack，然後把頂端的元素 pop 出。
+        Stack<Integer> stack = stacks.get(stacks.size() - 1);
+        int top = stack.pop();
+        if (stack.isEmpty()){
             stacks.remove(stacks.size() - 1);
         }
         return top;

@@ -45,6 +45,9 @@
     - [895. Maximum Frequency Stack](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n895_MaximumFrequencyStack.java)
     - [946. Validate Stack Sequences](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n946_ValidateStackSequences.java)
     
+- Queue
+    - [763. Partition Labels](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n763_PartitionLabels.java)
+
 - BFS
     - [104. Maximum Depth of Binary Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/   rainhu/n104_MaximumDepthOfBinaryTree.java)
     - [127. Word Ladder](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n127_WordLadder.java)
