@@ -21,6 +21,7 @@
     - [438. Find All Anagrams in a String](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n438_FindAllAnagramsInAString.java)
     - [525. Contiguous Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n525_ContiguousArray.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
+    - [1663. Smallest String With A Given Numeric Value](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1663_SmallestStringWithAGivenNumericValue.java)
     - [1672. Richest Customer Wealth](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1672_RichestCustomerWealth.java)
 
 - Linked List
