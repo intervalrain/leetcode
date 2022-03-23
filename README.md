@@ -62,6 +62,7 @@
     - [136. Single Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n136_SingleNumber.java)
     - [338. Counting Bits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n338_CountingBits.java)
     - [421. Maximum XOR of Two Numbers in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
+    - [991. Broken Calculator](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n991_BrokenCalculator.java)
 
 - Trie
     - [211. Design Add and Search Words Data Structure](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
