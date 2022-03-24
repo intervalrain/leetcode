@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n881_BoatsToSavePeople",
+            "request": "launch",
+            "mainClass": "com.rainhu.n881_BoatsToSavePeople",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n763_PartitionLabels",
             "request": "launch",
             "mainClass": "com.rainhu.n763_PartitionLabels",
