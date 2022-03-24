@@ -24,7 +24,26 @@ import java.util.List;
  */
 
 public class n881_BoatsToSavePeople {
+    
+    // best solution
     public int numRescueBoats(int[] people, int limit){
+        int[] buckets = new int[limit + 1];
+        for (int p : people) buckets[p]++;
+        int start = 0;
+        int end = buckets.length - 1;
+        int cnt = 0;
+        while (start <= end){
+            while (start <= end && buckets[start] <= 0) start++;
+            while (start <= end && buckets[end] <= 0) end--;
+            if (buckets[start] <= 0 && buckets[end] <= 0) break;
+            cnt++;
+            if (start + end <= limit) buckets[start]--;
+            buckets[end]--;
+        }
+        return cnt;
+    }
+
+    public int numRescueBoats1(int[] people, int limit){
         Arrays.sort(people);
         int i, j;
         for (i = 0, j = people.length - 1; i <= j; j--){
