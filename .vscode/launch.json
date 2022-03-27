@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n1337_TheKWeakestRowsInAMatrix",
+            "request": "launch",
+            "mainClass": "com.rainhu.n1337_TheKWeakestRowsInAMatrix",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n881_BoatsToSavePeople",
             "request": "launch",
             "mainClass": "com.rainhu.n881_BoatsToSavePeople",

@@ -20,34 +20,30 @@ import java.util.Arrays;
 
 public class n1029_TwoCityScheduling {
     // best solution
+    int[][] costs;
+    int[][] dp;
     public int twoCitySchedCost(int[][] costs) {
         int n = costs.length;
-        int[][] memo = new int[(n/2) + 1][(n/2) + 1]; 
-        return dfs(n - 1, n / 2, n / 2, costs, memo);
+        this.costs = costs;
+        dp = new int[(n/2) + 1][(n/2) + 1]; 
+        return dfs(n-1,n/2,n/2);
     }
     
-    int dfs(int index, int num_a, int num_b, int[][] costs, int[][] memo) {
-        if (index < 0) {
-            return 0;
-        }
-        
-        if (memo[num_a][num_b] > 0) return memo[num_a][num_b];
-
-        int[] currCosts = costs[index];
+    int dfs(int index, int a, int b) {
+        if (index < 0) return 0;
+        if (dp[a][b] > 0) return dp[a][b];
+        int[] curr = costs[index];
         int ans = 0;
         
-        if (num_a == 0) {
-            ans = currCosts[1] + dfs(index - 1, num_a, num_b - 1, costs, memo); 
-        } else if (num_b == 0) {
-            ans = currCosts[0] + dfs(index - 1, num_a - 1, num_b, costs, memo);
+        if (a == 0){
+            ans = curr[1] + dfs(index-1, a, b-1);
+        } else if (b == 0){
+            ans = curr[0] + dfs(index-1, a-1, b);
         } else {
-            int min_b = currCosts[1] + dfs(index - 1, num_a, num_b - 1, costs, memo);
-            int min_a = currCosts[0] + dfs(index - 1, num_a - 1, num_b, costs, memo);
-            ans = Math.min(min_b, min_a);
+            ans = Math.min(curr[0] + dfs(index-1, a-1, b), curr[1] + dfs(index-1, a, b-1));
         }
-        
-        memo[num_a][num_b] = ans;
-        return memo[num_a][num_b];
+        dp[a][b] = ans;
+        return dp[a][b];
     }
     
     

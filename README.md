@@ -20,6 +20,7 @@
     - [413. Arithmetic Slices](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n413_ArithmeticSlices.java)
     - [438. Find All Anagrams in a String](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n438_FindAllAnagramsInAString.java)
     - [525. Contiguous Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n525_ContiguousArray.java)
+    - [704. Binary Search](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n704_BinarySearch.java)
     - [881. Boats to Svae People](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n881_BoatsToSavePeople.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
     - [1663. Smallest String With A Given Numeric Value](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1663_SmallestStringWithAGivenNumericValue.java)
@@ -75,6 +76,7 @@
 
 - Priority Queue
     - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
+    - [1337. The K Weakeat Row in a Matrix](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1337_TheKWeakestRowsInAMatrix)
     - [1675. Minimize Deviation in Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1675_MinimizeDeviationInArray.java)
 
 - Back Tracking
@@ -199,7 +201,6 @@
     - [668. Kth Smallest Number in Multiplication Table](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n668_KthSmallestNumberInMultiplicationTable.java)
     - [687. Longest Univalue Path](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n687_LongestUnivaluePath.java)
     - [701. Insert into a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n701_InsertIntoABinarySearchTree.java)
-    - [704. Binary Search](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n704_BinarySearch.java)
     - [721. Accounts Merge](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n721_AccountsMerge.java)
     - [739. Daily Temperature](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n739_DailyTemperature.java)
     - [797. All Paths From Source to Target](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n797_AllPathsFromSourceToTarget.java)
