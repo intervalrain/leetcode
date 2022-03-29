@@ -13,12 +13,22 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+    public TreeNode(int a, int b){
+        this.val = a;
+        this.left = new TreeNode(b);
+    }
+    public TreeNode(int... array){
+        this.val = array[0];
+        this.left = new TreeNode(array[1]);
+        this.right = arrayToTree(array, 2);
+    }
     
     private static TreeNode arrayToTree(int[] array, int index){
         if (index < array.length)
             return new TreeNode(array[index], arrayToTree(array, index*2+1), arrayToTree(array, index*2+2));;
         return null;
     }
+
     public static TreeNode arrayToTree(int[] array){
         return arrayToTree(array, 0);
     }
