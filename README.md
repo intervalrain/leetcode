@@ -14,6 +14,7 @@
 ### Classification
 - Array 
     - [4. Median of Two Sorted Arrays](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n4_MedianOfTwoSortedArrays.java)
+    - [74. Search a 2D Matrix](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n74_SearchA2DMatrix.java)
     - [121. Best Time to Buy and Sell Stock](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n121_BestTimeToBuyAndSellStock.java)
     - [169. Majority Element](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n169_MajorityElement.java)
     - [189. Rotate Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n189_RotateArray.java)
