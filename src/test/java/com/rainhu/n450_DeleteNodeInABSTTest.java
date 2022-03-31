@@ -20,7 +20,7 @@ public class n450_DeleteNodeInABSTTest{
         key = 3;
         expected = TreeNode.arrayToTree(new Integer[]{5,4,6,2,null,null,7});
         actual = clz.deleteNode(root, key);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -29,7 +29,7 @@ public class n450_DeleteNodeInABSTTest{
         key = 0;
         expected = TreeNode.arrayToTree(new Integer[]{5,3,6,2,4,null,7});
         actual = clz.deleteNode(root, key);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -38,7 +38,7 @@ public class n450_DeleteNodeInABSTTest{
         key = 0;
         expected = null;
         actual = clz.deleteNode(root, key);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -47,6 +47,6 @@ public class n450_DeleteNodeInABSTTest{
         key = 0;
         expected = null;
         actual = clz.deleteNode(root, key);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 }

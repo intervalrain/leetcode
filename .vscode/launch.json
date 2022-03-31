@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n322_CoinChange",
+            "request": "launch",
+            "mainClass": "com.rainhu.n322_CoinChange",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n1337_TheKWeakestRowsInAMatrix",
             "request": "launch",
             "mainClass": "com.rainhu.n1337_TheKWeakestRowsInAMatrix",

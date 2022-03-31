@@ -70,7 +70,7 @@ public class TreeNode {
         treeToArraySub(root.right, index * 2 + 2, array);
     }
 
-    public static boolean Equals(TreeNode a, TreeNode b){
+    public static boolean equals(TreeNode a, TreeNode b){
         return Arrays.toString(treeToArray(a)).equals(Arrays.toString(treeToArray(b)));
     }
 

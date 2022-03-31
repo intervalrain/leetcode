@@ -73,6 +73,8 @@
 
 - Dynamic Programming
     - [84. Largest Rectangle in Histogram](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
+    - [322. Coin Change](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n322_CoinChange.java)
+    - [509. Fibonacci Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n509_FibonacciNumber.java)
     - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)) 
 
 - Priority Queue
@@ -194,7 +196,6 @@
     - [461. Hamming Distance](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n461_HammingDistance.java)
     - [476. Number Complement](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n476_NumberComplement.java)
     - [494. Target Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n494_TargetSum.java)
-    - [509. Fibonacci Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n509_FibonacciNumber.java)
     - [520. Detect Capital](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n520_DetectCapital.java)
     - [540. Single Element in a Sorted Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n540_SingleElementInASortedArray.java)
     - [563. Binary Tree Tilt](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n563_BinaryTreeTilt.java)

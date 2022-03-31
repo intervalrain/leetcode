@@ -20,7 +20,7 @@ public class n106_ConstructBinaryTreeFromInorderAndPostOrderTraversalTest {
         postorder = new int[]{9,15,7,20,3};
         expected = TreeNode.arrayToTree(new Integer[]{3,9,20,null,null,15,7});
         actual = clz.buildTree(inorder, postorder);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -29,7 +29,7 @@ public class n106_ConstructBinaryTreeFromInorderAndPostOrderTraversalTest {
         postorder = new int[]{-1};
         expected = TreeNode.arrayToTree(new Integer[]{-1});
         actual = clz.buildTree(inorder, postorder);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -38,7 +38,7 @@ public class n106_ConstructBinaryTreeFromInorderAndPostOrderTraversalTest {
         postorder = new int[]{3,2,1};
         expected = TreeNode.arrayToTree(new Integer[]{1,null,2,null,null,null,3});
         actual = clz.buildTree(inorder, postorder);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
 
     @Test
@@ -47,7 +47,7 @@ public class n106_ConstructBinaryTreeFromInorderAndPostOrderTraversalTest {
         postorder = new int[]{1,3,2,6,8,7,5,4};
         expected = TreeNode.arrayToTree(new Integer[]{4,2,5,1,3,6,7,null,null,null,null,null,null,null,8});
         actual = clz.buildTree(inorder, postorder);
-        assertTrue(TreeNode.Equals(expected, actual));
+        assertTrue(TreeNode.equals(expected, actual));
     }
     
     @Test
