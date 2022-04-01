@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n410_SplitArrayLargestSum",
+            "request": "launch",
+            "mainClass": "com.rainhu.n410_SplitArrayLargestSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n322_CoinChange",
             "request": "launch",
             "mainClass": "com.rainhu.n322_CoinChange",
