@@ -2,6 +2,7 @@ package com.rainhu;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -14,65 +15,49 @@ import java.util.List;
  * it must rearrange it as the lowest possible order (i.e., sorted in ascending order)
  * 
  * The replacement must be in place and use only constant extra memory.
+ * 
+ * @author: Rain Hu
+ * @version: 2
+ * @since: 2022/4/4
+ * @apiNote: Find the largest index i, j such that nums[i] < nums[j]. If no such index exists, just reverse nums.
+ *           Swap the nums[i] and nums[j] where (i, j) is the largest set meet the condition above.
+ *           Reverse the sub-array nums[i + 1:].
  */
 
 public class n31_NextPermutation {
 
     public void nextPermutation(int[] nums){
-        if (nums.length == 1)
-            return;
-        int len = nums.length;
-        if(nums[len-1] > nums[len-2]){
-            swap(nums, len-1, len-2);
-            return;
-        } else {
-            int left = len-1;
-            for (int i = len - 2; i >= 0; i--){
-                if (nums[i] < nums[i+1]){
-                    left = i;
-                    break;
+        for (int i = nums.length - 2; i >= 0; i--){
+            for (int j = nums.length - 1; j > i; j--){
+                if (nums[j] > nums[i]){
+                    swap(nums, i, j);
+                    reverse(nums, i + 1, nums.length - 1);
+                    return;
                 }
             }
-            if (left == len-1){
-                reverse(nums, 0, len-1);
-                return;
-            }
-            int right = left + 1;
-            for (int i = right; i < len; i++){
-                if (nums[i] > nums[left] && nums[i] <= nums[right])
-                    right = i;
-            }
-            swap(nums, left, right);
-            reverse(nums, left+1, len-1);
-        }   
+        }
+        reverse(nums, 0, nums.length - 1);
     }
+
     private void reverse(int[] nums, int left, int right){
-        while(left < right){
+        while (left < right){
             swap(nums, left, right);
-            left++;
-            right--;
+            left++; right--;
         }
     }
-    private void swap(int[] nums, int i, int j){
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
+
+    private void swap(int[] nums, int a, int b){
+        int tmp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = tmp;
+    }
+
+    public static void main(String[] args){
+        int[] nums = new int[]{1,1,5};
+        n31_NextPermutation clz = new n31_NextPermutation();
+        for (int i = 0; i <= 10; i++){
+            System.out.println(Arrays.toString(nums));
+            clz.nextPermutation(nums);
+        }
     }
 }
-    /**
-     * 1. Find the largest index k such that nums[k] < nums[k+1]. If no such index exists, just reverse nums.
-     * 2. Find the largest inedx l > k such that nums[k] < nums[l].
-     * 3. Swap nums[k] and nums[l].
-     * 4. Reverse the sub-array nums[k + 1:].
-     *      by Narayana Pandita
-     */
-
-    /**
-     * 1,2,3
-     * 1,3,2 -> is next permutation of 1,2,3
-     * 2,1,3 -> is next permutation of 1,3,2
-     * 2,3,1 -> is next permutation of 2,1,3
-     * 3,1,2 -> is next permutation of 2,3,1
-     * 3,2,1 -> is next permutation of 3,1,2
-     * 1,2,3 -> no next permutation. So return 1,2,3
-     */
