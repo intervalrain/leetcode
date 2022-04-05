@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n1721_SwappingNodesInALinkeddList",
+            "request": "launch",
+            "mainClass": "com.rainhu.n1721_SwappingNodesInALinkeddList",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n31_NextPermutation",
             "request": "launch",
             "mainClass": "com.rainhu.n31_NextPermutation",

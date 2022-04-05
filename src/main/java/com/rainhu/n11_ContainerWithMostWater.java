@@ -10,25 +10,24 @@ package com.rainhu;
  * such that the container contains the most water.
  * 
  * Notice that you may not slant the container.
+ * 
+ * @author: Rain Hu
+ * @version: 2
+ * @since: 2022/4/5
+ * @apiNote
  */
 public class n11_ContainerWithMostWater {
 
     public int maxArea(int[] height){
-        int left = 0;
-        int right = height.length-1; 
-        int area = calArea(height, left, right);
-
-        while(left<right){
-            if(height[left] < height[right]){
+        int left = 0, right = height.length - 1;
+        int area = 0;
+        do {
+            area = Math.max(area, calArea(height, left, right));
+            if (height[left] < height[right])
                 left++;
-            } else {
+            else
                 right--;
-            }
-            if(area < calArea(height, left, right)){
-                area = calArea(height, left, right);
-            };
-        }
-        
+        } while (left < right);
         return area;
     }
     
