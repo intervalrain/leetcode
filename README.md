@@ -80,6 +80,7 @@
 
 - Priority Queue
     - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
+    - [1046. Last Stone Weight](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1046_LastStoneWeightTest.java)
     - [1337. The K Weakeat Row in a Matrix](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1337_TheKWeakestRowsInAMatrix)
     - [1675. Minimize Deviation in Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1675_MinimizeDeviationInArray.java)
 
