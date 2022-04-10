@@ -107,6 +107,7 @@
     - [799. Champagne Tower](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n799_ChampagneTower.java)
 
 - Heap Sort
+    - [347.Top K Frequent Elements](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n347_TopKFrequentElements.java)
     - [703. Kth Largest Element in a Stream](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n703_KthLargestElementInAStream.java)
 
 
