@@ -24,6 +24,7 @@
     - [704. Binary Search](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n704_BinarySearch.java)
     - [881. Boats to Svae People](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n881_BoatsToSavePeople.java)
     - [941. Valid Mountain Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n941_ValidMountainArray.java)
+    - [1260. Shift 2D Grid](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1260_Shift2DGrid.java)
     - [1663. Smallest String With A Given Numeric Value](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1663_SmallestStringWithAGivenNumericValue.java)
     - [1672. Richest Customer Wealth](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1672_RichestCustomerWealth.java)
 
