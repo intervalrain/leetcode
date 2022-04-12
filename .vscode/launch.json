@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n289_GameOfLife",
+            "request": "launch",
+            "mainClass": "com.rainhu.n289_GameOfLife",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n703_KthLargestElementInAStream",
             "request": "launch",
             "mainClass": "com.rainhu.n703_KthLargestElementInAStream",
