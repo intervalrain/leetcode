@@ -1,8 +1,10 @@
 package com.rainhu;
 
 import java.util.List;
+
+import com.rainhu.ToolUtility.TreeNode;
+
 import java.util.ArrayList;
-import com.rainhu.DioUtility.TreeNode;
 
 /**
  * 94. Binary Tree Inorder Traversal (Easy)

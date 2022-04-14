@@ -3,7 +3,7 @@ package com.rainhu;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 /**
  * 111. Minimum Depth of Binary Tree (Easy)

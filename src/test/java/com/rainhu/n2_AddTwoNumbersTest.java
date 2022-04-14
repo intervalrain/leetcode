@@ -2,7 +2,8 @@ package com.rainhu;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
+
 import org.junit.jupiter.api.Test;
 
 public class n2_AddTwoNumbersTest {

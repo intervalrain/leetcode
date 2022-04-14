@@ -2,7 +2,7 @@ package com.rainhu;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 import org.junit.jupiter.api.Test;
 

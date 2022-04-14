@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 /**
  * 1290. Convert Binary Number in a Linked List to Integer (Easy)

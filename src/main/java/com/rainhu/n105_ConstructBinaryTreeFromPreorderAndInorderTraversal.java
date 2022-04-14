@@ -1,9 +1,9 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.TreeNode;
-
 import java.util.LinkedList;
 import java.util.Queue;
+
+import com.rainhu.ToolUtility.TreeNode;
 
 public class n105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
     Queue<Integer> q;

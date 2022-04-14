@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 /**
  * 61. Rotate List (Medium)

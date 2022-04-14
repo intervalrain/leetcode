@@ -2,7 +2,7 @@ package com.rainhu;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import com.rainhu.DioUtility.TriNode;
+import com.rainhu.ToolUtility.TriNode;
 
 import org.junit.jupiter.api.Test;
 

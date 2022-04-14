@@ -1,9 +1,9 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.ListNode;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.rainhu.ToolUtility.ListNode;
 
 import org.junit.jupiter.api.Test;
 

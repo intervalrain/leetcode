@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 /**
  * 19. Remove Nth Node From End of List (Medium)

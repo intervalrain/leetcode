@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 /**
  * 450. Delete Node in a BST (Medium)

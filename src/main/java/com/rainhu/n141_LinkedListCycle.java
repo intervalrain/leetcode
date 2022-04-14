@@ -1,7 +1,7 @@
 
 package com.rainhu;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 /**
  * 141. Linked List Cycle (Easy)

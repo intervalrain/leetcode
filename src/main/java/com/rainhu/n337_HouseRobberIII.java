@@ -3,7 +3,7 @@ package com.rainhu;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 /**
  * 337. House Robber III (Medium)

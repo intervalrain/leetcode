@@ -4,12 +4,21 @@
 - Author: Rain Hu
 - Email: intervalrain@gmail.com
 
-### DioUtility
+## Usage
++ You can download the ToolUtility to activate some data structure defined in LeetCode
++ I've created some convenient constructors and methods for JUnit.
+
+### ToolUtility
++ Data Structures
 - [ListNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/ListNode.java)
 - [TreeNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/TreeNode.java)
 - [Node](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/Node.java)
 - [TriNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/TriNode.java)
+- [RandomNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/RandomNode.java)
+- [UndirectedGraphNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/UndirectedGraphNode.java)
 
++ Testers
+- [ListTest](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/ListTest.java)
 
 ### Classification
 - Array 

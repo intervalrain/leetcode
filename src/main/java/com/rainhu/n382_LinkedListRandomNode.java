@@ -2,7 +2,7 @@ package com.rainhu;
 
 import java.util.Random;
 
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 /**
  * 382. Linked List Random Node (Medium)

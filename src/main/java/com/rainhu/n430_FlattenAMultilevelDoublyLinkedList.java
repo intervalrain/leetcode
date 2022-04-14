@@ -1,7 +1,8 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.TriNode;
 import java.util.Stack;
+
+import com.rainhu.ToolUtility.TriNode;
 
 /**
  * 430. Flatten a Multi-level Doubly Linked LIst (Median)

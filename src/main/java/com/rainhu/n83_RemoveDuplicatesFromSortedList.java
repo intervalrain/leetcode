@@ -1,15 +1,6 @@
 package com.rainhu;
 
-/**
- * 83. Remove Duplicates from Sorted List
- * 
- * Given the head of sorted linked list,
- * delete all duplicates such that each element appears only once.
- * Return the linked list sorted as well.
- * 
- */
-
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 public class n83_RemoveDuplicatesFromSortedList {
     

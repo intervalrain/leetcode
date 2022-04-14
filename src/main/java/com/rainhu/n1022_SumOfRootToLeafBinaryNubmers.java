@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 /**
  * 1022. Sum of Root To Leaf Binary Numbers (Easy)

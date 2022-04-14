@@ -2,20 +2,7 @@ package com.rainhu;
 
 import java.util.PriorityQueue;
 
-/**
- * 23. Merge k Sorted Lists (Hard) 
- * 
- * You are given an array of k linked-lists lists,
- * each linked-lists is sorted in ascending order.
- * Merge all the linked-lists into one sorted linked-list and return it.
- * 
- * @author: Rain Hu
- * @version: 2
- * @since: 202/2/5
- * @apiNote: Priority Queue
- */
-
-import com.rainhu.DioUtility.ListNode;
+import com.rainhu.ToolUtility.ListNode;
 
 public class n23_MergeKSortedLists {
     

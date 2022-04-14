@@ -1,16 +1,6 @@
 package com.rainhu;
 
-/**
- * 100. Same Tree (Easy)
- * 
- * Given the roots of two binary trees p and q,
- * write a function to check if they are the same or not.
- * 
- * Two binary trees are considered the same if they are stucturally identical,
- * and the nodes have the same value.
- */
-
-import com.rainhu.DioUtility.TreeNode;
+import com.rainhu.ToolUtility.TreeNode;
 
 public class n100_SameTree {
 
