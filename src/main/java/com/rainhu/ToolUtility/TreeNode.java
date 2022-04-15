@@ -18,9 +18,10 @@ public class TreeNode {
         this.left = new TreeNode(b);
     }
     public TreeNode(int... array){
-        this.val = array[0];
-        this.left = new TreeNode(array[1]);
-        this.right = arrayToTree(array, 2);
+        TreeNode root = TreeNode.arrayToTree(array);
+        this.val = root.val;
+        this.left = root.left;
+        this.right = root.right;
     }
     
     private static TreeNode arrayToTree(int[] array, int index){

@@ -17,6 +17,9 @@ import com.rainhu.ToolUtility.TreeNode;
 
 public class n700_SearchInABinarySearchTree {
     public TreeNode searchBST(TreeNode root, int val){
-        return new TreeNode(1,2,3);
+        if (root == null) return null;
+        if (root.val == val) return root;
+        if (val > root.val) return searchBST(root.right, val);
+        return searchBST(root.left, val);
     }
 }

@@ -70,6 +70,10 @@
     - [127. Word Ladder](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n127_WordLadder.java)
     - [1291. Sequential Digits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1291_SequentialDigits.java)
 
+- BST
+    - [669. Trim a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n669_TrimABinarySearchTree.java)
+    - [700. Search in a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n700_SearchInABinarySearchTree.java)
+
 - DFS
     - [1029. Two City Scheduling](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1029_TwoCityScheduling.java)
     - [1305. All Elements in Two Binary Search Trees](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1305_AllElementsInTwoBinarySearchTrees.java)
