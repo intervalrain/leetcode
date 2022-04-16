@@ -71,6 +71,7 @@
     - [1291. Sequential Digits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1291_SequentialDigits.java)
 
 - BST
+    - [538. Convert BST to Greater Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n538_ConvertBSTtoGreaterTree.java)
     - [669. Trim a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n669_TrimABinarySearchTree.java)
     - [700. Search in a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n700_SearchInABinarySearchTree.java)
 
