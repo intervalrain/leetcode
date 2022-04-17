@@ -44,6 +44,13 @@ public class TreeNode {
     public static TreeNode arrayToTree(Integer[] array){
         return arrayToTree(array, 0);
     }
+    public static TreeNode arrayToTreeInRightSubtreeOnly(Integer[] array){
+        TreeNode curr = new TreeNode(array[array.length-1]);
+        for (int i = array.length-2; i >= 0; i--){
+            curr = new TreeNode(array[i], null, curr);
+        }
+        return curr;
+    }
     public static int size(TreeNode root){
         if (root == null) return 0;
         return sizeSub(root, 0) + 1;

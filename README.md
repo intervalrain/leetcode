@@ -74,6 +74,7 @@
     - [538. Convert BST to Greater Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n538_ConvertBSTtoGreaterTree.java)
     - [669. Trim a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n669_TrimABinarySearchTree.java)
     - [700. Search in a Binary Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n700_SearchInABinarySearchTree.java)
+    - [897. Increasing Order Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n897_IncreasingOrderSearchTree.java)
 
 - DFS
     - [1029. Two City Scheduling](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1029_TwoCityScheduling.java)
