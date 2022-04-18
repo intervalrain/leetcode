@@ -1,12 +1,7 @@
 package com.rainhu;
 
 import java.util.List;
-import java.util.Map;
-import java.util.HashMap;
-
-
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.ArrayList;
 
 /**
@@ -48,7 +43,7 @@ public class n40_CombinationSumII {
     }
     void dfs(int[] candidates, int cur, int target, List<Integer> path, List<List<Integer>> res) {
         if (target == 0) {
-            res.add(new ArrayList(path));
+            res.add(new ArrayList<Integer>(path));
             return ;
         }
         if (target < 0) return;
