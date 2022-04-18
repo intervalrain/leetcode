@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n42_TrappingRainWater",
+            "request": "launch",
+            "mainClass": "com.rainhu.n42_TrappingRainWater",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch n40_CombinationSumII",
+            "request": "launch",
+            "mainClass": "com.rainhu.n40_CombinationSumII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch n38_CountAndSay",
+            "request": "launch",
+            "mainClass": "com.rainhu.n38_CountAndSay",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n289_GameOfLife",
             "request": "launch",
             "mainClass": "com.rainhu.n289_GameOfLife",
