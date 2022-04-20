@@ -56,6 +56,7 @@
 - Stack
     - [20. Valid Parenthewses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n20_ValidParentheses.java)
     - [71. Simplify Path](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n71_SimplifyPath.java)
+    - [173. Binary Search Tree Iterator](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n173_BinarySearchTreeIterator.java)
     - [344. Reverse String](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n344_ReverseString.java)
     - [682. BaseballGame.java](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n682_BaseballGame.java)
     - [856. Score of Parentheses](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n856_ScoreOfParentheses.java)
