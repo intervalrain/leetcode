@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n535_EncodeAndDecodeTinyURL",
+            "request": "launch",
+            "mainClass": "com.rainhu.n535_EncodeAndDecodeTinyURL",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n42_TrappingRainWater",
             "request": "launch",
             "mainClass": "com.rainhu.n42_TrappingRainWater",
