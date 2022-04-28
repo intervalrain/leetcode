@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n1202_SmallestStringWithSwaps",
+            "request": "launch",
+            "mainClass": "com.rainhu.n1202_SmallestStringWithSwaps",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n535_EncodeAndDecodeTinyURL",
             "request": "launch",
             "mainClass": "com.rainhu.n535_EncodeAndDecodeTinyURL",
