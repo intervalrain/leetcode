@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n456_132Pattern",
+            "request": "launch",
+            "mainClass": "com.rainhu.n456_132Pattern",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n581_ShortestUnsortedContinuousSubarray",
             "request": "launch",
             "mainClass": "com.rainhu.n581_ShortestUnsortedContinuousSubarray",
