@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n47_PermutationII",
+            "request": "launch",
+            "mainClass": "com.rainhu.n47_PermutationII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch n1641_CountSortedVowelStrings",
+            "request": "launch",
+            "mainClass": "com.rainhu.n1641_CountSortedVowelStrings",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n456_132Pattern",
             "request": "launch",
             "mainClass": "com.rainhu.n456_132Pattern",
