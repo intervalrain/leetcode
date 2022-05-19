@@ -80,6 +80,7 @@
     - [897. Increasing Order Search Tree](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n897_IncreasingOrderSearchTree.java)
 
 - DFS
+    - [329. Longest Increasing Path in a Matrix](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n329_LongestIncreasingPathInAMatrix.java)
     - [1029. Two City Scheduling](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1029_TwoCityScheduling.java)
     - [1305. All Elements in Two Binary Search Trees](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1305_AllElementsInTwoBinarySearchTrees.java)
 

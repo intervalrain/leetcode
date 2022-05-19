@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n743_NetworkDelayTime",
+            "request": "launch",
+            "mainClass": "com.rainhu.n743_NetworkDelayTime",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "Launch n117_PopulatingNextRightPointersInEachNodeII",
+            "request": "launch",
+            "mainClass": "com.rainhu.n117_PopulatingNextRightPointersInEachNodeII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n47_PermutationII",
             "request": "launch",
             "mainClass": "com.rainhu.n47_PermutationII",
