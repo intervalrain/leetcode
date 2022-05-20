@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n63_UniquePathII",
+            "request": "launch",
+            "mainClass": "com.rainhu.n63_UniquePathII",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n743_NetworkDelayTime",
             "request": "launch",
             "mainClass": "com.rainhu.n743_NetworkDelayTime",
