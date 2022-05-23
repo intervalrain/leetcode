@@ -98,6 +98,7 @@
     - [63. Unique Path II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n63_UniquePathII.java)
     - [84. Largest Rectangle in Histogram](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
     - [322. Coin Change](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n322_CoinChange.java)
+    - [474. Ones and Zeros](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n474_OnesAndZeros.java)
     - [509. Fibonacci Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n509_FibonacciNumber.java)
     - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)) 
 
