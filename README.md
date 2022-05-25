@@ -136,7 +136,10 @@
     - [703. Kth Largest Element in a Stream](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n703_KthLargestElementInAStream.java)
 
 - Graph
-    - [n59. Spiral Matrix II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n59_SpiralMatrixII.java)
+    - [59. Spiral Matrix II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n59_SpiralMatrixII.java)
+
+- Binary Search
+    - [354. Russian Doll Envelopes](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n354_RussianDollEnvelopes.java)
 
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
