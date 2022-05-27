@@ -12,10 +12,31 @@ package com.rainhu;
  *        whether it is signed or unsigned.
  *      + In Java, the compiler represents the signed integers using 2's complement notation.
  *        Therefore, in Example 3, the input represents the signed integer -3.
+ * 
+ * @author: Rain Hu
+ * @version: 2
+ * @since: 2022/5/27
+ * @apiNote: bit manipulation
  */
 
 public class n191_NumberOf1Bits {
+
+    // inbuilt function
+    public int hammingWeight3(int n) {
+        return Integer.bitCount(n);
+    }
+
+    // best solution
     public int hammingWeight(int n) {
+        int cnt = 0;
+        while (n != 0){
+            cnt++;
+            n &= (n-1);
+        }
+        return cnt;
+    }
+
+    public int hammingWeight2(int n) {
         int cnt = 0;
         while (n != 0){
             if ((n & 1) == 1){

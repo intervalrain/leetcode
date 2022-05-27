@@ -91,6 +91,7 @@
     - [338. Counting Bits](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n338_CountingBits.java)
     - [421. Maximum XOR of Two Numbers in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n421_MaximumXORofTwoNumbersInAnArray.java)
     - [991. Broken Calculator](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n991_BrokenCalculator.java)
+    - [1342. Number of Steps to Reduce a Number to Zero](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1342_NumberOfStepsToReduceANumberToZero.java)
 
 - Trie
     - [211. Design Add and Search Words Data Structure](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n211_DesignAddandSearchWordsDataStructure.java)
