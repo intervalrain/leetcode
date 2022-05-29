@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n44_WildcardMatching",
+            "request": "launch",
+            "mainClass": "com.rainhu.n44_WildcardMatching",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n1342_NumberOfStepsToReduceANumberToZero",
             "request": "launch",
             "mainClass": "com.rainhu.n1342_NumberOfStepsToReduceANumberToZero",
