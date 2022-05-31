@@ -13,6 +13,11 @@ package com.rainhu;
  * Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range:
  * [-2^32, 2^31-1].
  * For this problem, assume that your function return 2^31-1 when the division result overflows.
+ * 
+ * @author: Rain Hu
+ * @version: 1
+ * @since: 2022/5/31
+ * @apiNote
  */
 
 public class n29_DivideTwoIntegers {
@@ -35,7 +40,7 @@ public class n29_DivideTwoIntegers {
          *  28  = 3*(2^3) +  4 --> result = 32 + 8 = 40
          *  4   = 3*(2^0) +  1 --> result = 40 + 1 = 41
          *  -------------------
-         *  124 = 39 * 3 117 + 7
+         *  124 = 39 * 3 = 117 + 7
          */
         while(dividend - divisor >= 0){
             int count = 0;
