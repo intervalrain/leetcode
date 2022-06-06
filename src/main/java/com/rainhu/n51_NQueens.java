@@ -53,7 +53,7 @@ public class n51_NQueens {
     }
     public boolean isValid(List<char[]> board, int row, int col){
         int n = board.size();
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < row; i++){
             if (board.get(i)[col] == 'Q') return false;
         }
         for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++){
