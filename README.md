@@ -147,6 +147,7 @@
     - [59. Spiral Matrix II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n59_SpiralMatrixII.java)
 
 - Binary Search
+    - [167. Two SumII - Input Array Is Sorted](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n167_TwoSumII_InputArrayIsSorted.java)
     - [354. Russian Doll Envelopes](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n354_RussianDollEnvelopes.java)
 
 - Unsorted
