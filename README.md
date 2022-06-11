@@ -53,6 +53,7 @@
     - [454. 4Sum II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n454_4SumII.java)
     - [532. K-diff Pairs in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n532_KdiffPairsInAnArray.java)
     - [560. Subarray Sum Equals K](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n560_SubarraySumEqualsK.java)
+    - [1658. Minimum Opeartions to Reduce X to Zero](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1658_MinimumOperationsToReduceXtoZero)
     - [1679. Max Number of K-Sum Pairs](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1679_MaxNumberOfKSumPairs.java)
 
 - Stack
