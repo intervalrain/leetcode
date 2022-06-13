@@ -104,6 +104,7 @@
 - Dynamic Programming
     - [63. Unique Path II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n63_UniquePathII.java)
     - [84. Largest Rectangle in Histogram](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n84_LargestRectangleInHistogram.java)
+    - [120. Triangle](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n120_Triangle.java)
     - [304. Range Sum Query 2D](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n304_RangeSumQuery2DImmutable.java)
     - [322. Coin Change](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n322_CoinChange.java)
     - [474. Ones and Zeros](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n474_OnesAndZeros.java)
