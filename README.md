@@ -155,6 +155,9 @@
     - [167. Two SumII - Input Array Is Sorted](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n167_TwoSumII_InputArrayIsSorted.java)
     - [354. Russian Doll Envelopes](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n354_RussianDollEnvelopes.java)
 
+- Trie
+    - [745. Prefix and Suffix Search](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n745_PrefixAndSuffixSearch.java)
+
 - Unsorted
     - [5. Longest Palindromic Substring](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n5_LongestPalindromicSubstring.java)
     - [6. Zigzag Conversion](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n6_ZigzgaConversion.java)
