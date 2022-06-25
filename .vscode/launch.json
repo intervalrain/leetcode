@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n1354_ConstructTargetArrayWithMultipleSums",
+            "request": "launch",
+            "mainClass": "com.rainhu.n1354_ConstructTargetArrayWithMultipleSums",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n44_WildcardMatching",
             "request": "launch",
             "mainClass": "com.rainhu.n44_WildcardMatching",
