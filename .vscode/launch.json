@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Snippet",
+            "request": "launch",
+            "mainClass": "com.rainhu.Snippet.Snippet",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n1354_ConstructTargetArrayWithMultipleSums",
             "request": "launch",
             "mainClass": "com.rainhu.n1354_ConstructTargetArrayWithMultipleSums",
