@@ -15,7 +15,7 @@
 - [Node](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/Node.java)
 - [TriNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/TriNode.java)
 - [RandomNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/RandomNode.java)
-- [UndirectedGraphNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/UndirectedGraphNode.java)
+- [UndirectedGraphNode](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/UndirectedGraphNode.java)  
 
 + Testers
 - [ListTest](https://github.com/intervalrain/leetcode/tree/master/src/main/java/com/rainhu/DioUtility/ListTest.java)
@@ -47,7 +47,10 @@
     - [61. Rotate List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n61_RotatedList.java)
     - [82. Remove Duplicates from Sorted List II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n82_RemoveDuplicatesFromSortedListII.java)
     - [83. Remove Duplicates from Sorted List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n83_RemoveDuplicatesFromSortedList.java)
-    - [148. Sort List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n148_SortList.java): Merge sort
+    - [148. Sort List](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n148_SortList.java)
+
+- Hash Set
+    - [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1647_MinimumDeletionsToMakeCharacterFrequenciesUnique.java)
 
 - Hash Map
     - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
