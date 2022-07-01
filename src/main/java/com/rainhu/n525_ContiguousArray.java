@@ -34,7 +34,7 @@ public class n525_ContiguousArray{
         return len;
     }
 
-    /** bert solution */
+    /** best solution */
     public int findMaxLength2(int[] nums){
         if (nums == null || nums.length == 0) return 0;
         int sum = 0;
