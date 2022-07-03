@@ -1,7 +1,8 @@
 package com.rainhu;
 
 import java.util.Stack;
-import com.rainhu.ToolUtility.TreeNode;
+
+import com.rainhu.util.TreeNode;
 
 /**
  * 173. Binary Search Tree Iterator (Medium)

@@ -1,9 +1,9 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.TreeNode;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
+
+import com.rainhu.util.TreeNode;
 
 import org.junit.jupiter.api.Test;
 

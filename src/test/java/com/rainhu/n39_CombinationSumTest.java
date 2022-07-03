@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
 
-import com.rainhu.ToolUtility.ListTest;
+import com.rainhu.util.ListTest;
 
 import org.junit.jupiter.api.Test;
 

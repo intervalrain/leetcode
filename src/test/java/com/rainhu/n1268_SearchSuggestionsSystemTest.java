@@ -1,11 +1,13 @@
 package com.rainhu;
 
 import java.util.List;
+
+import com.rainhu.util.ListTest;
+
 import java.util.Arrays;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import com.rainhu.ToolUtility.ListTest;
 
 
 public class n1268_SearchSuggestionsSystemTest {

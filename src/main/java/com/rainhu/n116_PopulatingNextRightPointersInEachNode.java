@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.Node;
+import com.rainhu.util.Node;
 
 /**
  * 116. Populating Next Right Pointers in Each Node (Medium)

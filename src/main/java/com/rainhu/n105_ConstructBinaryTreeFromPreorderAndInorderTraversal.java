@@ -3,7 +3,7 @@ package com.rainhu;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.rainhu.ToolUtility.TreeNode;
+import com.rainhu.util.TreeNode;
 
 public class n105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
     Queue<Integer> q;

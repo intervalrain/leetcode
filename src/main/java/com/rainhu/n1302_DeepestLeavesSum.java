@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.TreeNode;
+import com.rainhu.util.TreeNode;
 
 /**
  * 1302. Deepest Leaves Sum (Medium)

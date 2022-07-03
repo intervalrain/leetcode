@@ -3,7 +3,7 @@ package com.rainhu;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.rainhu.ToolUtility.UndirectedGraphNode;
+import com.rainhu.util.UndirectedGraphNode;
 
 import org.junit.jupiter.api.Test;
 

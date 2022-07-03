@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.TreeNode;
+import com.rainhu.util.TreeNode;
 
 /**
  * 1026. Maximum Difference Between Node and Ancestor (Medium)

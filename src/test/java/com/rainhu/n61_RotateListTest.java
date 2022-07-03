@@ -3,7 +3,7 @@ package com.rainhu;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.rainhu.ToolUtility.ListNode;
+import com.rainhu.util.ListNode;
 
 import org.junit.jupiter.api.Test;
 

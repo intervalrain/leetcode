@@ -2,7 +2,7 @@ package com.rainhu;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.rainhu.ToolUtility.Node;
+import com.rainhu.util.Node;
 
 import org.junit.jupiter.api.Test;
 

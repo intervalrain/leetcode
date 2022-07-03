@@ -1,4 +1,4 @@
-package com.rainhu.ToolUtility;
+package com.rainhu.util;
 
 /**
  * A linked list of length n is given such that each node contains an additional random pointer, 

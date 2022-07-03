@@ -1,9 +1,9 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.TreeNode;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.rainhu.util.TreeNode;
 
 public class n968_BinaryTreeCamerasTest {
     

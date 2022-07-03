@@ -1,6 +1,6 @@
 package com.rainhu.Classic;
 
-import com.rainhu.ToolUtility.ListNode;
+import com.rainhu.util.ListNode;
 
 public class reverseLinkedList {
     

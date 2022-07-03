@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.ListNode;
+import com.rainhu.util.ListNode;
 
 /**
  * 1721. Swapping Nodes in a Linked List (Medium)

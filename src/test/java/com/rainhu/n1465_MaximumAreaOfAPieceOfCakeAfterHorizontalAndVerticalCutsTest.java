@@ -1,9 +1,9 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.Snippet;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.rainhu.util.Snippet;
 
 public class n1465_MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCutsTest {
     

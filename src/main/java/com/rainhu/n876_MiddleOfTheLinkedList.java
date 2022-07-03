@@ -1,6 +1,6 @@
 package com.rainhu;
 
-import com.rainhu.ToolUtility.ListNode;
+import com.rainhu.util.ListNode;
 
 /**
  * 876. Middle of the Linked List (Easy)

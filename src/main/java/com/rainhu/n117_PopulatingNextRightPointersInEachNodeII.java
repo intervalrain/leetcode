@@ -3,7 +3,7 @@ package com.rainhu;
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-import com.rainhu.ToolUtility.Node;
+import com.rainhu.util.Node;
 
 /**
  * 117. Populating Next Right Pointers in Each Node II (Medium)

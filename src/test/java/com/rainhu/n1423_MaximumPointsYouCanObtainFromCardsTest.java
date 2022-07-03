@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.rainhu.ToolUtility.Snippet;
+import com.rainhu.util.Snippet;
 public class n1423_MaximumPointsYouCanObtainFromCardsTest {
     
     n1423_MaximumPointsYouCanObtainFromCards clz = new n1423_MaximumPointsYouCanObtainFromCards();

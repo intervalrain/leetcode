@@ -1,10 +1,11 @@
 package com.rainhu;
 
 import java.util.List;
+
+import com.rainhu.util.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
-
-import com.rainhu.ToolUtility.TreeNode;
 
 /**
  * 230. Kth Smallest Element in a BST (medium)

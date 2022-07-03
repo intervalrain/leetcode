@@ -2,7 +2,7 @@ package com.rainhu;
 
 import java.util.Stack;
 
-import com.rainhu.ToolUtility.TreeNode;
+import com.rainhu.util.TreeNode;
 
 /**
  * 897. Increasing Order Search Tree (Easy)

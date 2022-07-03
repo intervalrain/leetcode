@@ -2,7 +2,7 @@ package com.rainhu;
 
 import java.util.PriorityQueue;
 
-import com.rainhu.ToolUtility.ListNode;
+import com.rainhu.util.ListNode;
 
 public class n23_MergeKSortedLists {
     

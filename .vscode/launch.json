@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch n376_WiggleSubsequence",
+            "request": "launch",
+            "mainClass": "com.rainhu.n376_WiggleSubsequence",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n406_QueueReconstructionByHeight",
             "request": "launch",
             "mainClass": "com.rainhu.n406_QueueReconstructionByHeight",
