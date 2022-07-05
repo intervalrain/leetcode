@@ -58,6 +58,7 @@
 - Hash Map
     - [1. Two Sum](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1_TwoSum.java)
     - [3. Longest Substring Without Reapting Characters](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n3_LongestSubstringWithoutRepeatingCharacters.java)
+    - [128. Longest Consecutive Sequence](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n128_LongestConsecutiveSequence.java)
     - [454. 4Sum II](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n454_4SumII.java)
     - [532. K-diff Pairs in an Array](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n532_KdiffPairsInAnArray.java)
     - [560. Subarray Sum Equals K](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n560_SubarraySumEqualsK.java)
