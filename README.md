@@ -122,7 +122,9 @@
     - [474. Ones and Zeros](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n474_OnesAndZeros.java)
     - [509. Fibonacci Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n509_FibonacciNumber.java)
     - [583. Delete Operation for Two Strings](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n583_DeleteOperationForTwoStrings.java)
-    - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)) 
+    - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)
+    - [1473. Paint House III](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1473_PaintHouseIII.java)
+    
 
 - Priority Queue
     - [23. Merge k Sorted Lists](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n23_MergeKSortedLists.java)
