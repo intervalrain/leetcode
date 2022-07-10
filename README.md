@@ -123,7 +123,9 @@
     - [509. Fibonacci Number](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n509_FibonacciNumber.java)
     - [583. Delete Operation for Two Strings](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n583_DeleteOperationForTwoStrings.java)
     - [740. Delete and Earn](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n740_DeleteAndEarn.java)
+    - [746. Min Cost Climbing Stairs](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n746_MinCostClimbingStairs.java)
     - [1473. Paint House III](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1473_PaintHouseIII.java)
+    - [1696. Jump Game VI](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n1696_JumpGameVI.java)
     
 
 - Priority Queue
