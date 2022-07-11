@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Snippet",
+            "request": "launch",
+            "mainClass": "com.rainhu.util.Snippet",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "Launch n1696_JumpGameVI",
             "request": "launch",
             "mainClass": "com.rainhu.n1696_JumpGameVI",

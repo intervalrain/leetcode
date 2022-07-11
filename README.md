@@ -172,6 +172,7 @@
     - [354. Russian Doll Envelopes](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n354_RussianDollEnvelopes.java)
 
 - Trie
+    - [199. Binary Tree Right Side View](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n199_BinaryTreeRightSideView.java)
     - [745. Prefix and Suffix Search](https://github.com/intervalrain/leetcode/blob/master/src/main/java/com/rainhu/n745_PrefixAndSuffixSearch.java)
 
 - Unsorted

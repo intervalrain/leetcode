@@ -84,4 +84,27 @@ public class Snippet {
         }
         return arr;
     }
+
+    public static TreeNode stringToTreeNode(String input){
+        
+        // JsonArray jsonArray = JsonArray.readFrom(input);
+        // input = jsonArray.jsonStr.trim();
+
+        input = input.substring(1, input.length() - 1);
+        if (input.length() == 0) {
+            return null;
+        }
+    
+        String[] parts = input.split(",");
+        Integer[] array = new Integer[parts.length];
+        for (int index = 0; index < parts.length; index++) {
+            String part = parts[index].trim();
+            if (part.equals("null")){
+                continue;
+            }
+            array[index] = Integer.parseInt(part);
+        }
+        TreeNode root = TreeNode.buildTree(array);
+        return root;
+    }
 }
