@@ -10,8 +10,8 @@ import java.util.Collections;
 public class ListTest{
 
     public static boolean intEquals(List<List<Integer>> expected, List<List<Integer>> actual){
-        // if two lists are both null return false.
-        if (expected == null && actual == null) return false;
+        // if two lists are both null return true.
+        if (expected == null && actual == null) return true;
 
         // if two lists' size are different return false.
         if ((expected == null && actual != null) || (expected != null && actual == null) || expected.size() != actual.size()) return false;
@@ -31,8 +31,8 @@ public class ListTest{
     }
 
     public static boolean strEquals(List<List<String>> expected, List<List<String>> actual){
-        // if two lists are both null return false.
-        if (expected == null && actual == null) return false;
+        // if two lists are both null return true.
+        if (expected == null && actual == null) return true;
 
         // if two lists' size are different return false.
         if ((expected == null && actual != null) || (expected != null && actual == null) || expected.size() != actual.size()) return false;
@@ -53,8 +53,8 @@ public class ListTest{
 
 
     public static boolean chrEquals(List<List<Character>> expected, List<List<Character>> actual){
-        // if two lists are both null return false.
-        if (expected == null && actual == null) return false;
+        // if two lists are both null return true.
+        if (expected == null && actual == null) return true;
 
         // if two lists' size are different return false.
         if ((expected == null && actual != null) || (expected != null && actual == null) || expected.size() != actual.size()) return false;
@@ -75,8 +75,8 @@ public class ListTest{
 
 
     public static boolean dblEquals(List<List<Double>> expected, List<List<Double>> actual){
-        // if two lists are both null return false.
-        if (expected == null && actual == null) return false;
+        // if two lists are both null return true.
+        if (expected == null && actual == null) return true;
 
         // if two lists' size are different return false.
         if ((expected == null && actual != null) || (expected != null && actual == null) || expected.size() != actual.size()) return false;
@@ -96,8 +96,8 @@ public class ListTest{
     }
 
     public static boolean boolEquals(List<List<Boolean>> expected, List<List<Boolean>> actual){
-        // if two lists are both null return false.
-        if (expected == null && actual == null) return false;
+        // if two lists are both null return true.
+        if (expected == null && actual == null) return true;
 
         // if two lists' size are different return false.
         if ((expected == null && actual != null) || (expected != null && actual == null) || expected.size() != actual.size()) return false;
