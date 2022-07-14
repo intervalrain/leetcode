@@ -1,35 +1,46 @@
 package com.rainhu;
 
-import java.util.LinkedList;
+import java.util.ArrayDeque;
 import java.util.Queue;
-
+import java.util.HashMap;
 import com.rainhu.util.TreeNode;
 
+/**
+ * 105. Construct Binary Tree from Preorder and Inorder Traversal (Medium)
+ * 
+ * Given two integer array preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder is the inorder traversal of the same tree,
+ * construct and return the binary tree.
+ * 
+ * @author: Rain Hu
+ * @version: 1
+ * @since: 2022/7/14
+ * @apiNote: tree
+ */
+
 public class n105_ConstructBinaryTreeFromPreorderAndInorderTraversal {
-    Queue<Integer> q;
     
     public TreeNode buildTree(int[] preorder, int[] inorder){
-        q = new LinkedList<>();
-        for (int i = 0; i < preorder.length; i++){
-            q.offer(preorder[i]);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] idx = new int[]{0};
+        for (int i = 0; i < inorder.length; i++){
+            map.put(inorder[i], i);
         }
-        return build(inorder, 0, inorder.length-1);
+        return build(preorder, idx, inorder, 0, inorder.length - 1, map);
     }
-
-    private TreeNode build(int[] inorder, int left, int right){
-        if (left == right){
-            q.remove(inorder[left]);
-            return new TreeNode(inorder[left]);
-        } else if (left > right){
+    
+    private TreeNode build(int[] preorder, int[] idx, int[] inorder, int left, int right, HashMap<Integer,Integer> map){
+        if (left > right){
             return null;
         }
-        int mid = q.poll();
-        int i;
-        TreeNode root = new TreeNode(mid);
-        for (i = right; i >= left; i--)
-            if (inorder[i] == mid) break;
-        root.left = build(inorder, left, i-1);
-        root.right = build(inorder, i+1, right);
+        if (left == right){
+            return new TreeNode(preorder[idx[0]++]);
+        }
+        int mid = map.get(preorder[idx[0]]);
+        TreeNode root = new TreeNode(preorder[idx[0]++]);
+        root.left = build(preorder, idx, inorder, left, mid - 1, map);
+        root.right = build(preorder, idx, inorder, mid + 1, right, map);
         return root;
     }
+    
+    
 }
