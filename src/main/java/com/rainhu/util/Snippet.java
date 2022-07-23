@@ -142,4 +142,17 @@ public class Snippet {
         }
         return list;
     }
+    public static String[] stringToStringArray(String input){
+        input = input.trim();
+        input = input.substring(1, input.length() - 1);
+        if (input.length() == 0) {
+            return new String[0];
+        }
+    
+        String[] parts = input.split(",");
+        // for (int i = 0; i < parts.length; i++){
+        //     parts[i] = parts[i].substring(1, parts[i].length()-1);
+        // }
+        return parts;
+    }
 }
