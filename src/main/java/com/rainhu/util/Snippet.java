@@ -155,4 +155,19 @@ public class Snippet {
         // }
         return parts;
     }
+    public static boolean[] stringToBooleanArray(String input){
+        input = input.trim();
+        input = input.substring(1, input.length() - 1);
+        if (input.length() == 0){
+            return new boolean[0];
+        }
+
+        String[] parts = input.split(",");
+        boolean[] output = new boolean[parts.length];
+        for(int index = 0; index < parts.length; index++) {
+            String part = parts[index].trim();
+            output[index] = Boolean.parseBoolean(part);
+        }
+        return output;
+    }
 }
