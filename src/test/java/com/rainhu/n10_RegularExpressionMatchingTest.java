@@ -14,7 +14,7 @@ public class n10_RegularExpressionMatchingTest {
     public void test1(){
         s = "aa";
         p = "a";
-        actual = clz.isMatch(s, p);
+        actual = clz.isMatch2(s, p);
         expected = false;
         assertEquals(expected, actual);
     }
@@ -23,7 +23,7 @@ public class n10_RegularExpressionMatchingTest {
     public void test2(){
         s = "aa";
         p = "a*";
-        actual = clz.isMatch(s, p);
+        actual = clz.isMatch2(s, p);
         expected = true;
         assertEquals(expected, actual);
     }
@@ -32,7 +32,7 @@ public class n10_RegularExpressionMatchingTest {
     public void test3(){
         s = "ab";
         p = ".*";
-        actual = clz.isMatch(s, p);
+        actual = clz.isMatch2(s, p);
         expected = true;
         assertEquals(expected, actual);
     }
@@ -41,7 +41,7 @@ public class n10_RegularExpressionMatchingTest {
     public void test4(){
         s = "aab";
         p = "c*a*b";
-        actual = clz.isMatch(s, p);
+        actual = clz.isMatch2(s, p);
         expected = true;
     }
 
@@ -49,10 +49,17 @@ public class n10_RegularExpressionMatchingTest {
     public void test5(){
         s = "mississippi";
         p = "mis*is*p*.";
-        clz.isMatch(s, p);
+        actual = clz.isMatch2(s, p);
         expected = false;
         assertEquals(expected, actual);
     }
-
+    @Test
+    public void test6(){
+        s = "mississippi";
+        p = "mis*is*ip*.";
+        actual = clz.isMatch2(s, p);
+        expected = true;
+        assertEquals(expected, actual);
+    }
     
 }
