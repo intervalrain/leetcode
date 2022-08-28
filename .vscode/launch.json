@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch n37_SudokuSolver3",
+            "request": "launch",
+            "mainClass": "com.rainhu.n37_SudokuSolver3",
+            "projectName": "leetcode"
+        },
+        {
+            "name": "g++ - 建置及偵錯使用中的檔案",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++ 建置使用中檔案"
+        }
+    ]
+}
